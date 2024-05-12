@@ -65,7 +65,7 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
       border="2px solid #a37913"
     >
       <MKTypography
-        display="block"
+        display="inline-block"
         variant="h3"
         color={iconColor}
         textGradient={variant === "contained"}
@@ -77,12 +77,13 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
         pt={{ xs: 3, md: 0 }}
         pl={{ xs: 0, md: 2 }}
         lineHeight={1}
+        display="inline-block"
         sx={{
           textAlign: selectedLanguage === "arabic" ? "right" : "inherit",
         }}
       >
         <MKTypography
-          display="block"
+          display="inline-block"
           variant="5"
           color={variant === "contained" || color === "light" ? "dark" : "white"}
           fontWeight="bold"
@@ -91,12 +92,13 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
           {title}
         </MKTypography>
         <MKTypography
-          display="block"
+          display="inline-block"
           variant="body2"
           color={variant === "contained" || color === "light" ? "text" : "white"}
           mb={2}
           sx={{
             overflowY: "auto",
+            maxHeight: "200px",
             "&::-webkit-scrollbar": {
               width: "6px",
             },
