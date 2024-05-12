@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webSite/static/css/main.7f58dc78.css",
-    "main.js": "/webSite/static/js/main.1dee6db6.js",
+    "main.js": "/webSite/static/js/main.a7d8ef5c.js",
     "static/media/rotating-card-bg-front.jpeg": "/webSite/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/weberprim-RA13.png": "/webSite/static/media/weberprim-RA13.871b4b06e2f864d55f17.png",
     "static/media/weberdry-reflex-P.png": "/webSite/static/media/weberdry-reflex-P.b1097e30b0ae911b19bc.png",
@@ -77,10 +77,10 @@
     "static/media/weber-saint-gobain.svg": "/webSite/static/media/weber-saint-gobain.948e9db4d8f2eb3ea21d54bc2e4fd265.svg",
     "index.html": "/webSite/index.html",
     "main.7f58dc78.css.map": "/webSite/static/css/main.7f58dc78.css.map",
-    "main.1dee6db6.js.map": "/webSite/static/js/main.1dee6db6.js.map"
+    "main.a7d8ef5c.js.map": "/webSite/static/js/main.a7d8ef5c.js.map"
   },
   "entrypoints": [
     "static/css/main.7f58dc78.css",
-    "static/js/main.1dee6db6.js"
+    "static/js/main.a7d8ef5c.js"
   ]
 }
