@@ -105,6 +105,7 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
               backgroundColor: "#a37913", // Remplacez par la couleur souhaitée
               borderRadius: "6px",
             },
+            textAlign: "right",
           }}
         >
           {description}

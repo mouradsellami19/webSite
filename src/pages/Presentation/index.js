@@ -60,7 +60,7 @@ function Presentation() {
         }}
       >
         <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
+          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto" direction="column">
             <MKTypography
               variant="h1"
               color="white"
@@ -76,14 +76,7 @@ function Presentation() {
             >
               {selectedLanguage === "english" ? "Sorouh Chemicals Co." : "شركة صروح للكيماويات"}
             </MKTypography>
-            <MKTypography
-              variant="body1"
-              color="white"
-              opacity={0.8}
-              textAlign="center"
-              px={selectedLanguage === "english" ? { xs: 6, lg: 12 } : { xs: 6, lg: 30 }}
-              mt={2}
-            >
+            <MKTypography variant="body1" color="white" opacity={0.8} mt={2} textAlign="center">
               {selectedLanguage === "english"
                 ? "Solutions for construction and renovation"
                 : "حلول للبناء والتجديد"}

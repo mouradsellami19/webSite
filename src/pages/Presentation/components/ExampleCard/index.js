@@ -100,6 +100,7 @@ function ExampleCard({ image, name, itemDescription, count, pro, ...rest }) {
               sx={{
                 overflowY: "auto",
                 maxHeight: "80px",
+                textAlign: selectedLanguage === "arabic" ? "right" : "inherit",
                 "&::-webkit-scrollbar": {
                   width: "12px",
                 },
@@ -117,6 +118,7 @@ function ExampleCard({ image, name, itemDescription, count, pro, ...rest }) {
               icon={<ShoppingCartIcon />}
               label={selectedLanguage === "english" ? "Available" : "متوفر"}
               color="success"
+              sx={{ float: selectedLanguage === "arabic" ? "right" : "left" }}
             />
           )}
         </MKBox>
