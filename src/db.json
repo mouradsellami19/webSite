@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Plaster skim coats finishes for rehabilitation",
+      "items": [
+        {
+          "id": 1,
+          "name": "webersan evobarriera",
+          "description": "Water-repellent and waterproofing cream for controlling rising damp in masonry. Compatible with cycles for dehumidification and anti-mold treatment.",
+          "image": "/Plaster-skim-coats-finishes-products/webersan-evobarriera.png"
+        },
+        {
+          "id": 2,
+          "name": "webersan evocalce",
+          "description": "Description for Product 2",
+          "image": "/Plaster-skim-coats-finishes-products/webersan-evocalce.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Plasters mortars lime",
+      "items": [
+        {
+          "id": 1,
+          "name": "webermix pratico",
+          "description": "Pre-mixed cement mortar of class M5 with high plasticity, for the construction and plastering of traditional brick or concrete block masonry in interior or exterior.",
+          "image": "/Plasters-mortars-lime-products/webermix-pratico.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Underlays glues sealants Images",
+      "items": [
+        {
+          "id": 1,
+          "name": "weberepox easy",
+          "description": "Decorative filler and epoxy adhesive with colored quartz, waterproof and stain-resistant. Easy to clean. Resists fungal and mold growth. Colors unalterable over time and resistant to UV rays.",
+          "image": "/underlays-glues-sealants-products/weberepox-easy.png"
+        },
+        {
+          "id": 2,
+          "name": "weberfloor 4716 Primer",
+          "description": "Multi-purpose primer based on synthetic resins in aqueous dispersion to even out the absorption of porous substrates when applying self-levelling agents.",
+          "image": "/underlays-glues-sealants-products/weberfloor-4716-Primer.png"
+        },
+        {
+          "id": 3,
+          "name": "weberfloor Planitec",
+          "description": "Fast-setting cementitious leveling agent for very high-strength levelling of indoor and outdoor floors and walls, restoration of industrial floors.",
+          "image": "/underlays-glues-sealants-products/weberfloor-Planitec.png"
+        },
+        {
+          "id": 4,
+          "name": "weberfloor Zero30",
+          "description": "Quick-setting skimming leveling compound for regularizing up to 30 mm of indoor and outdoor floors and walls.",
+          "image": "/underlays-glues-sealants-products/weberfloorZero30.png"
+        },
+        {
+          "id": 5,
+          "name": "weberplan MR81",
+          "description": "Ready-made screed with high mechanical strength and medium-fast drying, suitable for receiving any type of ceramic, marble, wood, resin and resilient materials.",
+          "image": "/underlays-glues-sealants-products/weberplanMR81.png"
+        }
+      ]
+    }
+  ]
+}
