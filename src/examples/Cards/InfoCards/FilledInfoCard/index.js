@@ -97,7 +97,6 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
           mb={2}
           sx={{
             overflowY: "auto",
-            maxHeight: "200px",
             "&::-webkit-scrollbar": {
               width: "6px",
             },
