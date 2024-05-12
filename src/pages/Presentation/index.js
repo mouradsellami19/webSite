@@ -81,7 +81,7 @@ function Presentation() {
               color="white"
               opacity={0.8}
               textAlign="center"
-              px={{ xs: 6, lg: 12 }}
+              px={selectedLanguage === "english" ? { xs: 6, lg: 12 } : { xs: 6, lg: 30 }}
               mt={2}
             >
               {selectedLanguage === "english"
