@@ -95,6 +95,7 @@ function ExampleCard({ image, name, itemDescription, count, pro, ...rest }) {
           {itemDescription && (
             <MKTypography
               justifyContent="flex-start"
+              minHeight="50px"
               variant="h6"
               color="black"
               sx={{
@@ -118,7 +119,10 @@ function ExampleCard({ image, name, itemDescription, count, pro, ...rest }) {
               icon={<ShoppingCartIcon />}
               label={selectedLanguage === "english" ? "Available" : "متوفر"}
               color="success"
-              sx={{ float: selectedLanguage === "arabic" ? "right" : "left" }}
+              sx={{
+                mt: "10px",
+                float: selectedLanguage === "arabic" ? "right" : "left",
+              }}
             />
           )}
         </MKBox>
