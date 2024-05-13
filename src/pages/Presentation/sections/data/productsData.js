@@ -111,16 +111,6 @@ export default [
         arname: "ويبرنيف بريمو",
         description: "Self-levelling interior floor screed for large-scale projects",
         arDescription: "مستوية ذاتية للأرضيات الداخلية لمشاريع كبيرة",
-        moreDescription: [
-          {
-            detail: "loremmm loremmm",
-            ardetail: "لوريم م لوريم م",
-          },
-          {
-            detail: "azerty",
-            ardetail: "أزيرتي",
-          },
-        ],
         image: webernivPrimo,
       },
       {
@@ -131,16 +121,6 @@ export default [
           "Self-leveling, fast-covering levelling compound for interior floors, prior to laying floor coverings in areas with low (P2) or medium (P3) loads, on hydraulic substrates or old tiles",
         arDescription:
           "مركب تسوية ذاتي الاستواء وسريع التغطية للأرضيات الداخلية، قبل وضع طبقات الأرضيات في المناطق ذات الأحمال المنخفضة (P2) أو المتوسطة (P3)، على الأساسات الهيدروليكية أو البلاط القديم",
-        moreDescription: [
-          {
-            detail: "loremmm loremmm",
-            ardetail: "لوريم م لوريم م",
-          },
-          {
-            detail: "azerty",
-            ardetail: "أزيرتي",
-          },
-        ],
         image: webernivElit,
       },
       {
@@ -149,16 +129,6 @@ export default [
         arname: "ويبرنيف برو",
         description: "High-strength self-levelling mortar for large construction sites",
         arDescription: "ملاط ذاتي التسوية عالي القوة لمواقع البناء الكبيرة",
-        moreDescription: [
-          {
-            detail: "loremmm loremmm",
-            ardetail: "لوريم م لوريم م",
-          },
-          {
-            detail: "azerty",
-            ardetail: "أزيرتي",
-          },
-        ],
         image: webernivPro,
       },
     ],
