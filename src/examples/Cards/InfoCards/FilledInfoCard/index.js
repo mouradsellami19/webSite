@@ -77,7 +77,7 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
         pt={{ xs: 3, md: 0 }}
         pl={{ xs: 0, md: 2 }}
         lineHeight={1}
-        display="inline-block"
+        display="block"
         sx={{
           textAlign: selectedLanguage === "arabic" ? "right" : "inherit",
         }}

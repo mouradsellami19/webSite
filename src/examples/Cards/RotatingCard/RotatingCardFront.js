@@ -39,7 +39,8 @@ function RotatingCardFront({ color, image, icon, title, description }) {
           )}, url(${image})`,
         backgroundSize: "cover",
         backfaceVisibility: "hidden",
-        height: selectedLanguage === "english" ? "350px" : "280px",
+        display: "inline-block",
+        height: selectedLanguage === "english" ? "400px" : "320px",
       }}
     >
       <MKBox py={5} px={3} textAlign="justify" lineHeight={1}>
@@ -48,13 +49,14 @@ function RotatingCardFront({ color, image, icon, title, description }) {
             {typeof icon === "string" ? <Icon>{icon}</Icon> : icon}
           </MKTypography>
         )}
-        <MKTypography variant="h5" color="white" gutterBottom>
+        <MKTypography textAlign="center" variant="h5" color="white" gutterBottom>
           {title}
         </MKTypography>
         <MKTypography
           variant="body2"
           color="white"
           opacity={0.8}
+          textAlign="center"
           // sx={{
           //   overflowY: "auto",
           //   maxHeight: "100px",
