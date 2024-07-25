@@ -75,32 +75,28 @@ import weberprimRA13 from "../../../../assets/images/Paints-and-coatings-product
 export default [
   {
     id: 1,
-    name: "Preparing and finishing floors",
-    arname: "تجهيز الأرضيات وتشطيبها",
+    name: "Comprehensive Solutions for Preparing, Leveling, and Smoothing Floors",
+    arname: "حلول شاملة لتجهيز وتسوية وتنعيم االرضيات",
     items: [
       {
         id: 1,
         name: "Weberfloor 4040",
         arname: "ويبر فلور 4040",
         description:
-          "Mortar for levelling floors and creating slope shapes for interior and exterior use",
-        arDescription: "ملاط لتسوية الأرضيات وإنشاء أشكال ميل للاستخدام الداخلي والخارجي",
+          "Polymer-modified cementitious mortar used for floor leveling and slope creation.",
+        arDescription: "مونة اسمنتية معدلة بالبوليمر تستخدم لتسوية االرضيات وإنشاء المنحدرات",
         moreDescription: [
           {
-            detail: "Fibrated, limits the formation of crazing",
-            ardetail: "مفيبر، يقيد تكون التشققات",
+            detail: "Easy to use.",
+            ardetail: "سهلة االستخدام.",
           },
           {
-            detail: "For interiors and exteriors",
-            ardetail: "للاستخدام الداخلي والخارجي",
+            detail: "For interiors and exteriors .",
+            ardetail: " مناسبة لالستخدام الداخلي والخارجي.",
           },
           {
-            detail: "Easy to apply",
-            ardetail: "سهل الاستخدام",
-          },
-          {
-            detail: "Excellent adhesion to supports",
-            ardetail: "تصاق ممتازة بالدعم",
+            detail: "Excellent adhesion to supports.",
+            ardetail: "قدرة التصاق جيدة مع االسطح.",
           },
         ],
         image: weberfloor4040,
@@ -109,8 +105,18 @@ export default [
         id: 2,
         name: "Weberniv primo",
         arname: "ويبرنيف بريمو",
-        description: "Self-levelling interior floor screed for large-scale projects",
-        arDescription: "مستوية ذاتية للأرضيات الداخلية لمشاريع كبيرة",
+        description: "A self-leveling mortar used to level and smooth interior floors of large areas.",
+        arDescription: "مونة ذاتية التسوية تستخدم لتسوية وتنعيم االرضيات الداخلية ذات المساحة الكبيرة.",
+        moreDescription: [
+          {
+            detail: "Suitable for floors with low (P2) or medium (P3) pressure.",
+            ardetail: "مناسبة لألرضيات ذات الضغط المنخفض )2P )او المتوسط",
+          },
+          {
+            detail: "Can be applied manually or by machine.",
+            ardetail: " يمكن تطبيقها يدوًيا او بواسطة االلة.",
+          },
+        ],
         image: webernivPrimo,
       },
       {
@@ -118,50 +124,256 @@ export default [
         name: "Weberniv elit",
         arname: "ويبرنيف إليت",
         description:
-          "Self-leveling, fast-covering levelling compound for interior floors, prior to laying floor coverings in areas with low (P2) or medium (P3) loads, on hydraulic substrates or old tiles",
+          "A quick-covering self-leveling mortar used to level and smooth old interior or hydraulic floors.",
         arDescription:
-          "مركب تسوية ذاتي الاستواء وسريع التغطية للأرضيات الداخلية، قبل وضع طبقات الأرضيات في المناطق ذات الأحمال المنخفضة (P2) أو المتوسطة (P3)، على الأساسات الهيدروليكية أو البلاط القديم",
-        image: webernivElit,
+          "مونة ذاتية التسوية وسريع التغطية تستخدم لتسوية وتنعيم االرضيات الداخلية القديمة او الهيدروليكية.",
+          moreDescription: [
+            {
+              detail: "Suitable for floors with low (P2) or medium (P3) pressure.",
+              ardetail: "مناسبة لألرضيات ذات الضغط المنخفض )2P )او المتوسط",
+            },
+            {
+              detail: "Easy to use.",
+              ardetail: " سهلة التطبيق.",
+            },
+          ],
+          image: webernivElit,
       },
       {
         id: 4,
         name: "Weberniv pro",
         arname: "ويبرنيف برو",
-        description: "High-strength self-levelling mortar for large construction sites",
-        arDescription: "ملاط ذاتي التسوية عالي القوة لمواقع البناء الكبيرة",
+        description: "High-strength self-levelling mortar used to level and smooth interior floors of large areas.",
+        arDescription: "مونة ذاتية التسوية عالية القوة تستخدم لتسوية وتنعيم االرضيات الداخلية ذات المساحة الكبيرة.",
+        moreDescription: [
+          {
+            detail: "Suitable for floors with low (P2) or medium (P3) pressure.",
+            ardetail: "مناسبة لألرضيات ذات الضغط المنخفض )2P )او المتوسط",
+          },
+          {
+            detail: "Can be applied manually or by machine.",
+            ardetail: "يمكن تطبيقها يدوًيا او بواسطة االلة.",
+          },
+        ],
         image: webernivPro,
+      },
+      {
+        id: 5,
+        name: "weberfloor Planitec",
+        description:
+          "A quick-setting cement for smoothing interior and exterior floors and walls.",
+        arname: "ويبرفلور بلانيتيك",
+        arDescription:
+          "اسمنت سريع االعداد لتنعيم االرضيات والجدران الداخلية والخارجية.",
+        moreDescription: [
+          {
+            detail: "High mechanical strength.",
+            ardetail: "قوة ميكانيكية عالية.",
+          },
+          {
+            detail: "Good adhesion to surfaces .",
+            ardetail: "التصاق جيد باألسطح.",
+          },
+          {
+            detail: "Fast drying time .",
+            ardetail: "زمن جفاف سريع.",
+          },
+          {
+            detail: "It can be walked on .",
+            ardetail: "يمكن المشي عليه.",
+          },
+        ],
+        image: weberfloorPlanitec,
+      },
+      {
+        id: 6,
+        name: "weberfloor Zero30",
+        description:
+          "A quick-setting material for smoothing and leveling interior and exterior floors and walls up to 30 mm thick .",
+        arname: "ويبرفلور زيرو 30",
+        arDescription:
+          "مادة سريعة االعداد لتنعيم وتسوية االرضيات والجدران الداخلية والخارجية بسمك يصل الى 30 مم.",
+        moreDescription: [
+          {
+            detail: "High mechanical strength.",
+            ardetail: "قوة ميكانيكية عالية",
+          },
+          {
+            detail: "Good adhesion to surfaces .",
+            ardetail: "التصاق جيد باألسطح.",
+          },
+          {
+            detail: "Fast drying time .",
+            ardetail: "زمن جفاف سريع.",
+          },
+        ],
+        image: weberfloorZero30,
+      },
+      {
+        id: 7,
+        name: "weberplan MR81",
+        description:
+          "Highly resistant floor leveling material suitable for use with ceramic, marble and wood.",
+        arname: "ويبربلان إم آر 81",
+        arDescription:
+        "مادة لتسوية االرضيات عالية المقاومة مناسبة لالستخدام مع السيراميك والرخام والخشب.",
+        moreDescription: [
+          {
+            detail: "Suitable for use with heated floors.",
+            ardetail: "مناسب ة لالستخدام مع االرضيات الساخنة.",
+          },
+          {
+            detail: "Excellent workability.",
+            ardetail: "قابلية تشغيل ممتازة.",
+          },
+          {
+            detail: "Suitable for interior and exterior use.",
+            ardetail: "مناسب ة لالستخدام الداخلي والخارجي.",
+          },
+        ],
+        image: weberplanMR81,
+      },
+      {
+        id: 8,
+        name: "weberfloor 4150",
+        description:
+          "Self-leveling cement applied with a thickness ranging from 1 to 30 mm, suitable for interior surfaces.",
+        arname: "ويبرفلور 4150",
+        arDescription:
+          "اسمنت ذاتي التسوية يطبق بسمك يتراوح 1 – 30 مم مناسب لألسطح",
+        moreDescription: [
+          {
+            detail: "It can be applied by machine.",
+            ardetail: "يمكن تطبيقه بواسطة االلة.",
+          },
+          {
+            detail: "Low shrinkage",
+            ardetail: "انكماش منخفض",
+          },
+          {
+            detail: "Ideal for low thickness underfloor heating systems.",
+            ardetail: "مثالي ألنظمة التدفئة األرضية ذات السماكة المنخفضة.",
+          },
+        ],
+        image: weberfloor4150,
+      },
+      {
+        id: 9,
+        name: "weberfloor AL",
+        description: "Self-leveling cement applied with a thickness of 1-10 mm per layer.",
+        arname: "ويبرفلور آل",
+        arDescription: "اسمنت ذاتي التسوية يطبق بسمك يتراوح 1 – 10 مم للطبقة الواحدة.",
+        moreDescription: [
+          {
+            detail: "Fast hardening",
+            ardetail: "سريع التصلب. ",
+          },
+          {
+            detail: "Suitable for interior and exterior use.",
+            ardetail: " مناسب لالستخدام الداخلي والخارجي.",
+          },
+        ],
+        image: weberfloorAL,
+      },
+      {
+        id: 10,
+        name: "weberfloor level 250",
+        description:
+          "Self-leveling liquid mortar ideal for application to low thickness underfloor heating systems .",
+        arname: "ويبرفلور ليفيل 250",
+        arDescription:
+          "مونة سائلة ذاتية التسوية مثالية للتطبيق على أنظمة التدفئة األرضية ذات السماكة المنخفضة.",
+        moreDescription: [
+          {
+            detail: "Almost zero shrinkage",
+            ardetail: " انكماش شبه معدوم. ",
+          },
+          {
+            detail: "Applicable on any type of heating system.",
+            ardetail: "قابلة للتطبيق على أي نوع من أنظمة التدفئة األرضية.",
+          },
+          {
+            detail: "Distributes heat evenly",
+            ardetail: "توزع الحرارة بالتساوي",
+          },
+        ],
+        image: weberfloorLevel250,
+      },
+      {
+        id: 11,
+        name: "weberfloor 4716 Primer",
+        description: "A single-component, transparent, ammonia-free acrylic primer specially designed to improve the adhesion of paints to the surface",
+        arname: "ويبرفلور 4716 برايمر",
+        arDescription: "ب اريمر احادي المكون شفاف ذو أساس اكريليك خالي من  الأمونيا تم تصميمه خصيصا لتحسين التصاق الطالءات بالسطح.",
+        moreDescription: [
+          {
+            detail: " resistant to Alkali",
+            ardetail: "مقاوم للقلويات",
+          },
+          {
+            detail: "Does not contain ammonia",
+            ardetail: "لا يحتوي على الأمونيا",
+          },
+          {
+            detail: "It can be used in dry and wet surfaces.",
+            ardetail: "يمكن استخدامه في السطح الجافة والرطبة",
+          },
+        ],
+        image: webersanEvocalce,
+      },
+      {
+        id: 12,
+        name: "weberprime PF15",
+        description: "A highly penetrating primer that insulates surfaces before applying cement-based products, improving the adhesion of these products to surfaces",
+        arname: "ويبربريم PF15",
+        arDescription: "ب اريمر قوي االخت ارق يعزل االسطح قبل وضع المنتجات القائمة على االسمنت، مما يعمل على تحسين التصاق هذه المنتجات باألسطح.",
+        moreDescription: [
+          {
+            detail: "Easy to use",
+            ardetail: "سهل االستخدام.",
+          },
+          {
+            detail: "Deep penetration into surfaces",
+            ardetail: "اختراق عميق في االسطح",
+          },
+          {
+            detail: "Good insulation of surfaces",
+            ardetail: "عزل جيد لألسطح",
+          },
+        ],
+        image: weberprimPF15,
       },
     ],
   },
   {
     id: 2,
-    name: "Plasters mortars lime",
-    arname: "جص ملاط الجص الجير",
+    name: "Versatile Mortars from Weber for Comprehensive Solutions for Building and Restoration Projects",
+    arname: "مونة متعددة األنواع منWeber لحلول شاملة لمشاريع البناء والترميم ",
     items: [
       {
         id: 1,
         name: "webermix pratico",
         arname: "ويبر ميكس براتيكو",
         description:
-          "Pre-mixed cement mortar of class M5 with high plasticity, for the construction and plastering of traditional brick or concrete block masonry in interior or exterior",
+          "A pre-mixed cement mortar with high elasticity used in traditional buildings made of brick or concrete.",
         arDescription:
-          "ملاط الإسمنت المخلوط مسبقاً من الفئة M5 ذو المرونة العالية، للبناء والتشطيبات الجصية للمباني التقليدية من الطوب أو الكتل الخرسانية في الداخل أو الخارج",
+          "مونة اسمنتية مسبقة الخلط ذات مرونة عالية تستخدم في المباني التقليدية المصنوعة من الطوب او الخرسانة",
         moreDescription: [
           {
-            detail: "High plasticity and workability",
-            ardetail: "مرونة وسهولة في العمل عالية",
+            detail: "Suitable for interior and exterior use.",
+            ardetail: "مناسبة لالستخدام الداخلي والخارجي.",
           },
           {
-            detail: "2 in 1 product: mortar and plaster",
-            ardetail: "منتج 2 في 1: ملاط وجص",
+            detail: "Excellent workability.",
+            ardetail: "قابلية تشغيل ممتازة.",
           },
           {
-            detail: "Ideal for closing tracks on walls",
-            ardetail: "مثالي لإغلاق المسارات على الجدران",
+            detail: "•	It replaces the traditional mixture of sand and cement prepared on site",
+            ardetail: "تحل محل المزيج التقليدي من الرمل واالسمنت المجهز في الموقع.",
           },
           {
-            detail: "Replaces the traditional sand and cement mortar prepared on site",
-            ardetail: "يحل محل الطين والإسمنت التقليدي المحضر في الموقع",
+            detail: "Ideal for sealing cracks and joints in buildings.",
+            ardetail: "مثالية إلغالق الشقوق والفواصل في المباني.",
           },
         ],
         image: webermixPratico,
@@ -171,165 +383,261 @@ export default [
         name: "weber IP610 extra",
         arname: "ويبر آي بي610 إكسترا",
         description:
-          "Pre-mixed lime-cement based substrate plaster with manual or mechanized application for traditional interior and exterior surfaces. Fibered to limit cracking",
+          "Fiber reinforced mortar consisting of lime, cement, polymer fibers, aggregates and selected additives is suitable for interior and exterior use in residential, commercial and industrial buildings.",
         arDescription:
-          "جص أساسي مخلوط مسبقاً من الجير والإسمنت مع تطبيق يدوي أو آلي للأسطح التقليدية الداخلية والخارجية. مليء بالألياف لتقليل التشققات",
+          "مونة مقوى باأللياف تتكون من الجير واألسمنت وألياف البوليمر والركام والمواد المضافة المختارة مناسبة لالستخدام الداخلي والخارجي في المباني السكنية والتجارية والصناعية.",
         moreDescription: [
-          {
-            detail: "Fibrated, limits the formation of crazing",
-            ardetail: "مليء بالألياف لتقليل تكوين التشققات",
-          },
           {
             detail: "Easy to apply",
             ardetail: "سهل التطبيق",
           },
           {
-            detail: "For interiors and exteriors",
-            ardetail: "للاستخدام الداخلي والخارجي",
-          },
-          {
             detail: "Excellent adhesion to supports",
             ardetail: "التصاق ممتاز بالأسطح",
+          },
+          {
+            detail: "Reduces the formation of hairline cracks",
+            ardetail: "تقلل من تكوين التشققات الشعرية.",
+          },
+          {
+            detail: "It can be applied manually or by machine",
+            ardetail: "يمكن تطبيقها يدويا او باأللة.",
           },
         ],
         image: weberIP610Extra,
       },
       {
         id: 3,
-        name: "weber L50 TOP",
-        arname: "ويبر إل 50 توب",
-        description:
-          "General purpose latex in construction. Versatile to a variety of uses such as to improve the adhesion and workability of mortars, plasters, screeds, tile sealants, and skim coat adhesives",
-        arDescription:
-          "لاتكس عام في البناء. متعدد الاستخدامات لمجموعة متنوعة من الاستخدامات مثل تحسين التصاق وقابلية العمل للملاط والجص والسيلاج ومواد التشطيب للبلاط والمواد اللاصقة للطبقة الرقيقة",
-        moreDescription: [
-          {
-            detail: "Improves workability, adhesion and resistance",
-            ardetail: "يحسن من قابلية العمل والتصاق والمتانة",
-          },
-          {
-            detail: "Versatile for different uses",
-            ardetail: "متعدد الاستخدامات لاستخدامات مختلفة",
-          },
-        ],
-        image: weberL50TOP,
-      },
-      {
-        id: 4,
         name: "webercalce into F",
         arname: "ويبركالس إنتو إف",
         description:
-          "Pre-mixed natural hydraulic lime NHL substrate plaster for manual or machine application indoors or outdoors. Cement-free, highly breathable to improve living comfort",
+          "Mortar made of natural hydraulic lime (NHL) that can be applied manually or using a machine.",
         arDescription:
-          "جص أساسي مخلوط مسبقاً من الجير الهيدروليكي الطبيعي NHL للتطبيق اليدوي أو الآلي في الداخل أو الخارج. خالٍ من الأسمنت، ومسامي للغاية لتحسين الراحة في العيش",
+          "او باستخدام االله. يمكن تطبيقها يدويا)NHL)الطبيعي مونة تتكون من الجير الهيدروليكي",
         moreDescription: [
           {
-            detail: "High breathability, improves living comfort",
-            ardetail: "تهوية عالية، تحسن من الراحة في العيش",
+            detail: "Low content of dissolved salts",
+            ardetail: "محتوى منخفض من االمالح الذائبة",
           },
           {
-            detail: "Low content of soluble salts",
-            ardetail: "محتوى منخفض من الأملاح القابلة للذوبان",
+            detail: "Natural, cement-free, fiber-reinforced mortar",
+            ardetail: "مونة طبيعية خالية من االسمنت ومقوى باأللياف",
           },
           {
-            detail: "Natural product free from cement",
-            ardetail: "منتج طبيعي خالٍ من الأسمنت",
+            detail: "High breathability, allows water vapor to pass through.",
+            ardetail: "تهوية عالية،تسمح لبخار الماء المرور من خاللها",
           },
           {
-            detail: "Made of hydraulic lime compliant with UNI-EN 459",
-            ardetail: "مصنوع من الجير الهيدروليكي وفقًا للمواصفة القياسية UNI-EN 459",
-          },
-          {
-            detail: "Fibered with polypropylene fibres",
-            ardetail: "مليء بألياف البولي بروبيلين",
+            detail: "Suitable for interior and exterior use",
+            ardetail: "مناسبة لالستخدام الداخلي والخارجي",
           },
         ],
         image: webercalceIntoF,
       },
       {
-        id: 5,
+        id: 4,
         name: "webercalce into G",
         description:
-          "Pre-mixed natural hydraulic lime NHL substrate plaster for manual or machine application indoors or outdoors. Cement-free, highly breathable to improve living comfort",
+          "Mortar consisting of natural hydraulic lime (NHL) that can be applied manually or using a machine.",
         arname: "ويبركالس إنتو جي",
         arDescription:
-          "جص أساسي مخلوط مسبقاً من الجير الهيدروليكي الطبيعي NHL للتطبيق اليدوي أو الآلي في الداخل أو الخارج. خالٍ من الأسمنت، ومسامي للغاية لتحسين الراحة في العيش",
+          "يمكن تطبيقها يدويا(NHL)الطبيعي مونة تتكون من الجير الهيدروليكي او باستخدام االله.",
         moreDescription: [
           {
-            detail: "High breathability, improves living comfort",
-            ardetail: "تهوية عالية، تحسن من الراحة في العيش",
+            detail: "Low content of dissolved salts",
+            ardetail: "محتوى منخفض من االمالح الذائبة",
           },
           {
-            detail: "Low content of soluble salts",
-            ardetail: "محتوى منخفض من الأملاح القابلة للذوبان",
+            detail: "Natural, cement-free, fiber-reinforced mortar",
+            ardetail: "مونة طبيعية خالية من االسمنت ومقوى باأللياف",
           },
           {
-            detail: "Natural product free from cement",
-            ardetail: "منتج طبيعي خالٍ من الأسمنت",
+            detail: "High breathability, allows water vapor to pass through.",
+            ardetail: "تهوية عالية،تسمح لبخار الماء المرور من خاللها",
           },
           {
-            detail: "Made of hydraulic lime in accordance with UNI-EN 459",
-            ardetail: "مصنوع من الجير الهيدروليكي وفقًا للمواصفة القياسية UNI-EN 459",
-          },
-          {
-            detail: "Fibered with polypropylene fibers",
-            ardetail: "مليء بألياف البولي بروبيلين",
+            detail: "Suitable for interior and exterior use",
+            ardetail: "مناسبة لالستخدام الداخلي والخارجي",
           },
         ],
         image: webercalceIntoG,
       },
       {
-        id: 6,
+        id: 5,
         name: "webercalce iniezione5",
         description:
-          "Pourable superfluid mortar of class M5 NHL natural hydraulic lime, suitable for consolidating stone or brick masonry through injections. Cement-free and sulfate-resistant",
+          "Mortar consisting of natural hydraulic lime (NHL5) suitable for use on stone walls by injection.",
         arname: "ويبركالس إينييزيون5",
         arDescription:
-          "ملاط سائل قابل للتدفق من الفئة M5 من الجير الهيدروليكي الطبيعي NHL، مناسب لتحصين الحجر أو الطوب عبر الحقن. خالٍ من الأسمنت ومقاوم للكبريتات",
-        image: webercalceIniezione5,
+          "مونة تتكون من الجير الهيدروليكي الطبيعي 5) (NHL مناسبة لالستخدامعلى الجد ارن الحجرية عن طريق الحقن",
+          moreDescription: [
+            {
+              detail: "Natural, cement-free mortar",
+              ardetail: "مونة طبيعية خالية من االسمنت ",
+            },
+            {
+              detail: "Sulfate -resistant.",
+              ardetail: "مقاومة للكبريتات",
+            },
+            {
+              detail: "Excellent for filling joints..",
+              ardetail: "ممتازة لملء المفاصل",
+            },
+            {
+              detail: "Easy and quick to clean",
+              ardetail: "سهلة وسريعة التنظيف.",
+            },
+            {
+              detail: "Suitable for use in buildings of historical value.",
+              ardetail: "مناسبة لالستخدام في المباني ذات القيمة التاريخية",
+            },
+          ],
+          image: webercalceIniezione5,
+      },
+      {
+        id: 6,
+        name: "webercalce malta M2,5",
+        description:
+          "Pre-mixed mortar consisting of natural hydraulic lime (NHL CLASS 2.5) suitable for use on stone surfaces.",
+        arname: "ويبركالس مالتا إم 2,5",
+        arDescription:
+          "مونة الهيدروليكي تتكون من الجي مسبقة الخلط االسطح على مناسبة  لالستخدام (NHL CLASS 2.5) الحجرية.",
+        moreDescription: [
+            {
+              detail: "Natural, cement-free, fiber-reinforced mortar",
+              ardetail: "مونة طبيعية خالية من االسمنت ومقوى باأللياف",
+            },
+            {
+              detail: "Excellent workability.",
+              ardetail: "قابلية تشغيل ممتازة.",
+            },
+            {
+              detail: "•	Ideal for finishing surfaces of buildings with historical and architectural value and grouting stone walls.",
+              ardetail: "مثالية لتشطيب أسطح المباني ذات القيمة التاريخية والمعمارية وحشو الجد ارن الحجرية.",
+            },
+            {
+              detail: "Suitable for interior and exterior use",
+              ardetail: "مناسبة لالستخدام الداخلي والخارجي",
+            },
+          ],
+          image: webercalceMaltaM25,
       },
       {
         id: 7,
-        name: "webercalce malta M2,5",
-        description:
-          "Class M2.5 NHL natural hydraulic lime mortar for masonry elevation and the stitching of face stones. Natural color, cement-free",
-        arname: "ويبركالس مالتا إم 2,5",
-        arDescription:
-          "جص الجير الهيدروليكي الطبيعي NHL للدرجات M2.5 لرفع المباني وخياطة الأحجار الواجهية. لون طبيعي، خالٍ من الأسمنت",
-        image: webercalceMaltaM25,
-      },
-      {
-        id: 8,
         name: "webercalce malta M10",
         description:
-          "NHL5 natural hydraulic lime fibrous mortar of class M10 for masonry elevation and the stitching of face stones. Natural color, cement-free",
+          "Pre-mixed mortar consisting of natural hydraulic lime (NHL5 CLASS 10) suitable for use on stone surfaces.",
         arname: "ويبركالس مالتا إم 10",
         arDescription:
-          "ملاط الجير الهيدروليكي الطبيعي NHL5 من الدرجة M10 لرفع المباني وخياطة الأحجار الواجهية. لون طبيعي، خالٍ من الأسمنت",
+          "مونة الهيدروليكي تتكون من الجي مسبقة الخلط االسطح على مناسبة  لالستخدام (NHL CLASS 10) الحجرية.",
+        moreDescription: [
+            {
+              detail: "Natural, cement-free, fiber-reinforced mortar",
+              ardetail: "مونة طبيعية خالية من االسمنت ومقوى باأللياف",
+            },
+            {
+              detail: "Excellent workability.",
+              ardetail: "قابلية تشغيل ممتازة.",
+            },
+            {
+              detail: "Ideal for finishing surfaces of buildings with historical and architectural value and grouting stone walls.",
+              ardetail: "مثالية لتشطيب أسطح المباني ذات القيمة التاريخية والمعمارية وحشو الجد ارن الحجرية.",
+            },
+            {
+              detail: "Suitable for interior and exterior use",
+              ardetail: "مناسبة لالستخدام الداخلي والخارجي",
+            },
+          ],
         image: webercalceMaltaM10,
       },
       {
-        id: 9,
+        id: 8,
         name: "webercalce rasatura L",
         description:
-          "NHL3.5 natural hydraulic lime skim coat for a smooth white finish. Natural mineral product with high breathability to improve living comfort, cement-free",
+          "Mortar consisting of natural hydraulic lime (NHL3.5) that can be applied manually or using a machine.",
         arname: "ويبركالس راساتورا إل",
         arDescription:
-          "طبقة سميكة من الجير الهيدروليكي الطبيعي NHL3.5 للحصول على تشطيب أبيض ناعم. منتج معدني طبيعي بتهوية عالية لتحسين الراحة في العيش، خالٍ من الأسمنت",
-        image: webercalceRasaturaL,
+          "مونة تتكون من الجير الهيدروليكي الطبيعي NHL3.5( ) يمكن تطبيقها يدويا او باستخدام االله.",
+          moreDescription: [
+            {
+              detail: "Natural, cement-free, fiber-reinforced mortar",
+              ardetail: "مونة طبيعية خالية من االسمنت ومقوى باأللياف",
+            },
+            {
+              detail: "Excellent surface smoothness.",
+              ardetail: "نعومة  سطح ممتازة.",
+            },
+            {
+              detail: "High breathability allows water vapor to pass through.",
+              ardetail: " تهوية عالية، تسمح لبخار الماء المرور من خاللها.",
+            },
+            {
+              detail: "Ideal for finishing surfaces of buildings with historical and architectural value and new buildings.",
+              ardetail: "مثالية لتشطيب أسطح المباني ذات القيمة التاريخية والمعمارية والمباني الجديدة.",
+            },
+          ],
+          image: webercalceRasaturaL,
       },
       {
-        id: 10,
+        id: 9,
         name: "webercalce rasatura",
         description:
-          "NHL natural hydraulic lime skim coat for a civil finish. Natural mineral product with high breathability to improve living comfort, cement-free",
+          "Mortar consisting of natural hydraulic lime (NHL) that can be applied manually or using a machine.",
         arname: "ويبركالس راساتورا",
         arDescription:
-          "طبقة سميكة من الجير الهيدروليكي الطبيعي NHL للحصول على تشطيب مدني. منتج معدني طبيعي بتهوية عالية لتحسين الراحة في العيش، خالٍ من الأسمنت",
-        image: webercalceRasatura,
+          "مونة تتكون من الجير الهيدروليكي الطبيعي NHL( ) يمكن تطبيقها يدويا او باستخدام االله.",
+          moreDescription: [
+            {
+              detail: "Natural, cement-free, fiber-reinforced mortar",
+              ardetail: "مونة طبيعية خالية من االسمنت ومقوى باأللياف",
+            },
+            {
+              detail: "Natural color",
+              ardetail: "لون طبيعي.",
+            },
+            {
+              detail: "High breathability allows water vapor to pass through.",
+              ardetail: " تهوية عالية، تسمح لبخار الماء المرور من خاللها.",
+            },
+            {
+              detail: "Ideal for finishing surfaces of buildings with historical and architectural value and new buildings.",
+              ardetail: "مثالية لتشطيب أسطح المباني ذات القيمة التاريخية والمعمارية والمباني الجديدة.",
+            },
+          ],
+          image: webercalceRasatura,
       },
+    ],
+    },
+    {
+      id: 3,
+      name: "Latex and additives",
+      arname: "الالتكس والمواد المضافة ",
+      items: [
+        {
+          id: 1,
+          name: "weber L50 TOP",
+          arname: "ويبر إل 50 توب",
+          description:
+            "Adding a mortar made of (SBR) latex, which improves insulation properties, increases adhesion and resistance to stress, and reduces shrinkage in the mortar and plaster.",
+          arDescription:
+            "إضافة مونة مصنوعة من مادة )SBR) الالتكس التي تعمل على تحسااين خواا العزل وزيادة االلتصاااق ومقاومة االجهادات والتقليل من االنكماش في المونة والملعقة",
+          moreDescription: [
+            {
+              detail: "Ready to use.",
+              ardetail: "جاهزة لالستخدام",
+            },{
+              detail: "Improves the ability of concrete to adhere to surfaces.",
+              ardetail: "تحسن من قدرة الخرسانة على االلتصاق باألسطح.",
+            },
+            {
+              detail: "Improves workability and increases the mortar’s resistance to stress without affecting the water content",
+              ardetail: "تحساااان من قابلية التشااااغيل وتزيد من مقاومة المونة لإلجهادات بدون التأثير في المحتوى المائي",
+            },
+          ],
+          image: weberL50TOP,
+        },
       {
-        id: 11,
+        id: 2,
         name: "weber LATEX C10",
         description: "Multipurpose concentrated latex",
         arname: "ويبر لاتكس سي 10",
@@ -357,59 +665,61 @@ export default [
     ],
   },
   {
-    id: 3,
-    name: "Plaster skim coats finishes for rehabilitation",
+    id: 4,
+    name: "High quality finishes for restoration and repair",
     arname: "تشطيبات طلاءات الجص القشرية لإعادة التأهيل",
     items: [
       {
         id: 1,
         name: "webersan evobarriera",
-        description: "Water-repellent cream to control rising damp in walls",
+        description: "Moisture-resistant waterproofing cream specially formulated to create horizontal chemical barriers in walls and surfaces exposed to moisture.",
         arname: "ويبرسان إيفوباريرا",
-        arDescription: "كريم مقاوم للماء للتحكم في الرطوبة الصاعدة في الجدران",
+        arDescription: "كريم عازل للماء مقاوم للرطوبة تم تصميمه خصيصا إنشاء حواجز كيميائية افقية في الجد ارن واألسطح المعرضة للرطوبة.",
         moreDescription: [
           {
-            detail: "Product ready to use and simple to apply manual",
-            ardetail: "منتج جاهز للاستخدام وسهل التطبيق يدوياً",
+            detail: "Easy to apply",
+            ardetail: " سهل التطبيق",
+          },{
+            detail: "ready to use",
+            ardetail: " جاهز للاستخدام",
           },
           {
-            detail: "Highly waterproof and durable time",
-            ardetail: "مقاوم للماء بشكل كبير ويدوم طويلاً",
-          },
-          {
-            detail:
-              "Complete capillary saturation of the support for the creation of ahorizontal chemical barrier",
-            ardetail: "إشباع كامل للرأس العائم لإنشاء حاجز كيميائي أفقي",
-          },
-          {
-            detail: "Does not form disintegrating salts / does not cause structural alterations",
-            ardetail: "لا يشكل أملاح تتفكك / لا يسبب تغيرات هيكلية",
+            detail: "High resistance to water over time.",
+            ardetail: "مقاومة عالية للماء بمرور الوقت.",
           },
         ],
         image: webersanEvobarriera,
       },
       {
         id: 2,
-        name: "weberfloor 4716 Primer",
-        description: "Synthetic resin-based primer in water dispersion",
-        arname: "ويبرفلور 4716 برايمر",
-        arDescription: "برايمر قائم على الراتنج الاصطناعي في تشتت مائي",
+        name: "webersan evocalce",
+        arname: "ويبرسان إيفوكالس",
+        description: "Mortar consisting of natural hydraulic lime (NHL) is used for moisture insulation.",
+        arDescription: "الرطوبة مونة تتكون من الجير الهيدروليكي تستخدم لعزل  )NHL) الطبيعي",
         moreDescription: [
           {
-            detail: "First versatile",
-            ardetail: "متعدد الاستخدامات",
+            detail: "Single component, easy to apply.",
+            ardetail: "احادية المكون سهل التطبيق",
           },
           {
-            detail: "Does not contain ammonia",
-            ardetail: "لا يحتوي على الأمونيا",
+            detail: "Can be applied manually or by machine.",
+            ardetail: "يمكن تطبيقها يدو˝يا او بواسطة االلة",
           },
           {
-            detail: "Alkali resistant",
-            ardetail: "مقاوم للقلويات",
+            detail: "Reduces the formation of hairline cracks.",
+            ardetail: "تقلل من تكوين التشققات الشعرية.",
           },
           {
-            detail: "Can be used in dry and humid environments",
-            ardetail: "يمكن استخدامه في البيئات الجافة والرطبة",
+            detail: "Reinforced with fiber.",
+            ardetail: "مقوى باأللياف.",
+          },
+          {
+            detail: "It can be combined with Weber threm thermal insulation systems",
+            ardetail: "يمكن دمجها مع أنظمة العزل الح ارري threm .weber",
+          },
+          {
+            detail: "Resistant to heat and frost",
+            ardetail: "مقاوم للحرارة والصقيع",
           },
         ],
         image: webersanEvocalce,
@@ -418,26 +728,18 @@ export default [
         id: 3,
         name: "weber RZ",
         description:
-          "Gypsum-based smooth interior skim coat. For smoothing smooth or mirrored platrio effect walls. Excellent primer for paints",
+          "Gypsum to smooth interior walls before applying paint.",
         arname: "ويبر آر زد",
         arDescription:
-          "طبقة رقيقة داخلية ناعمة قائمة على الجبس. لتسوية الجدران ذات التأثير الناعم أو المرآي. برايمر ممتاز للدهانات",
+          "جبس لتنعيم الجد ارن الداخلية قبل تطبيق الدهان.",
         moreDescription: [
           {
-            detail: "Platrium mirror effect finish",
-            ardetail: "تشطيب بتأثير مرآة بلاستيريوم",
+            detail: "Easy to apply.",
+            ardetail: "سهل التطبيق",
           },
           {
-            detail: "Can be used for smoothing surfaces with good coplanarity",
-            ardetail: "يمكن استخدامه لتسوية الأسطح ذات التوازن الجيد",
-          },
-          {
-            detail: " Filler on irregularities",
-            ardetail: "ملء الشوائب",
-          },
-          {
-            detail: "Excellent and fast primer for paints",
-            ardetail: "برايمر ممتاز وسريع للدهانات",
+            detail: "Ideal	for	smoothing	interior	walls	before applying paints and wallpaper.",
+            ardetail: "جيد لتنعيم الجدران الداخلية قبل تطبيق الدهانات وورق الحائط",
           },
         ],
         image: weberRZ,
@@ -446,50 +748,49 @@ export default [
         id: 4,
         name: "webercem RS350",
         description:
-          "Breathable fine civil finish cementitious skim coat, white or gray, for exterior and interior use. Excellent workability and ease of recovery",
+          "Well breathability cement with excellent workability",
         arname: "ويبرسم آر إس350",
         arDescription:
-          "طبقة رقيقة ناعمة قابلة للتنفس من الأسمنت، بيضاء أو رمادية، للاستخدام في الخارج والداخل. قابلية عالية للعمل وسهولة في الاسترداد",
+          "اسمنت جيد التهوية ذو قابلية تشغيل ممتازة وتشطيب ابيض وناعم.",
         moreDescription: [
           {
-            detail: "Breathable, applicable on plasters to be renovated ment",
-            ardetail: "قابلة للتنفس، قابلة للاستخدام على الدهانات التي يجب تجديدها",
+            detail: "Excellent adhesion to surfaces",
+            ardetail: "التصاق ممتازة باألسطح",
           },
           {
-            detail: "Great workability and ease of recovery",
-            ardetail: "قابلية عالية للعمل وسهولة في الاسترداد",
+            detail: "It can be applied manually or using a machine.",
+            ardetail: "يمكن تطبيقه يدو˝يا او باستخدام االله.",
           },
           {
-            detail: "Excellent floatability and pleasant finish",
-            ardetail: "تطفو بسهولة وتوفر تشطيباً ممتعاً",
+            detail: "Suitable for interior and exterior use.",
+            ardetail: "مناسب لالستخدام الداخلي والخارجي",
           },
           {
-            detail: "Also applicable by machine",
-            ardetail: "يمكن تطبيقه أيضًا بواسطة الآلة",
+            detail: "High breathability allows water vapor to pass through.",
+            ardetail: "تهوية جيدة، يسمح لبخار الماء المرور من خالله",
           },
         ],
         image: webercemRS350,
       },
       {
-        id: 4,
+        id: 5,
         name: "webercem RA30",
         description:
-          "Universal cementitious skim coat with high adhesion performance. Indoor or outdoor on critical substrates such as concrete and predalles, excellent adhesion on old facades finished with plastic, mosaic or ceramic coatings. Resistant to weathering and carbonation",
+          "Cement with high adhesion that can be used on internal and external surfaces.",
         arname: "ويبرسم آر أي30",
         arDescription:
-          "طبقة رقيقة من الأسمنت متعددة الاستخدامات ذات أداء عالي للالتصاق. داخلي أو خارجي على الأسطح الحرجة مثل الخرسانة والبريدالز، التصاق ممتاز على الواجهات القديمة التي تم تشطيبها بالبلاستيك أو الفسيفساء أو الأغطية السيراميكية. مقاوم للتعرية والكربونة",
+          "اسمنت ذو قوة التصاق عالية يمكن استخدامه على االسطح الداخلية والخارجية.",
         moreDescription: [
           {
-            detail: "High resistance to carbonation",
-            ardetail: "مقاومة عالية للكربونة",
+            detail: "High resistance to carbonation.",
+            ardetail: "مقاومة عالية للكربنة.",
+          },{
+            detail: "Excellent adhesion to surfaces",
+            ardetail: "التصاق ممتازة باألسطح.",
           },
           {
-            detail: "Applicable on old plastic, mosaic and ceramic coverings",
-            ardetail: "قابلة للاستخدام على الأغطية البلاستيكية والفسيفساء والسيراميك القديمة",
-          },
-          {
-            detail: " Excellent adhesion also on concrete and floors predalles",
-            ardetail: "تصاق ممتاز أيضًا على الخرسانة والأرضيات البريدالز",
+            detail: "It can be applied to plastic, mosaics and ceramics..",
+            ardetail: "يمكن تطبيقه على البالستيك والفسيفساء والسي ارميك",
           },
         ],
         image: webercemRA30,
@@ -497,37 +798,29 @@ export default [
       {
         id: 5,
         name: "webersan top evolution",
-        description: "Cement-based lightweight dehumidifying plaster",
+        description: "A lightweight cement-based mortar designed to remove moisture.",
         arname: "ويبرسان توب إيفولوشن",
-        arDescription: "جص خفيف قائم على الأسمنت لتجفيف الرطوبة",
+        arDescription: "مونة خفيفة الوزن قائمة على االسمنت تم تصميمها إل ازلة الرطوبة",
         moreDescription: [
           {
-            detail: "Single product applicable by hand and by plastering machine",
-            ardetail: "منتج واحد قابل للتطبيق يدوياً وبواسطة آلة التلييس",
+            detail: "Single component, easy to apply.",
+            ardetail: "احادية المكون سهلة التطبيق",
           },
           {
-            detail: "Suitable for all cases of salinity",
-            ardetail: "مناسب لجميع حالات الملوحة",
+            detail: "Can be applied manually or by machine",
+            ardetail: "يمكن تطبيقها يدو˝يا او بواسطة االلة",
           },
           {
-            detail: "Limits and controls super condensation phenomena official",
-            ardetail: "يحد من ظواهر التكثف الفائقة ويسيطر عليها",
+            detail: "Reduces the formation of hairline cracks.",
+            ardetail: "تقلل من تكوين التشققات الشعرية",
           },
           {
-            detail: "Respects the thermo-hygrometric balance of the masonry",
-            ardetail: "يحترم التوازن الحراري والرطوبي للبناء",
+            detail: "Reinforced with fiber.",
+            ardetail: "مقوى باأللياف",
           },
           {
-            detail: "Fibered to prevent cracking",
-            ardetail: "مليء بالألياف لمنع التشققات",
-          },
-          {
-            detail: "High dimensional stability on the support masonry",
-            ardetail: "ثبات أبعاد عالي على البناء الداعم",
-          },
-          {
-            detail: "Solution that can be integrated with Webertherm thermal insulation systems",
-            ardetail: "حل يمكن دمجه مع أنظمة العزل الحراري ويبرتيرم",
+            detail: "It can be combined with Weber threm thermal insulation systems",
+            ardetail: "يمكن دمجها مع أنظمة العزل الح ارري threm .weber",
           },
         ],
         image: webersanTopEvolution,
@@ -535,459 +828,345 @@ export default [
     ],
   },
   {
-    id: 4,
-    name: "Underlays glues sealants",
-    arname: "المواد اللاصقة اللاصقة السفلية",
+    id: 5,
+    name: "A variety of tile adhesives and fillers",
+    arname: "مجموعة متنوعة من المواد الالصقة والمالئة للبالط",
     items: [
       {
         id: 1,
         name: "weberepox easy",
         description:
-          "Decorative stucco and epoxy adhesive with high creaminess, high chemical and mechanical resistance",
+          "High resistance waterproof epoxy adhesive.",
         arname: "ويبريبوكس إيزي",
-        arDescription: "جص ديكوري ولاصق إيبوكسي ذو قوام عالي، مقاومة كيميائية وميكانيكية عالية",
+        arDescription: "مادة الصقة ايبوكسيه مقاومة للماء ذات مقاومة عالية",
         moreDescription: [
           {
-            detail: "Waterproof and stain-proof",
-            ardetail: "مقاوم للماء ومقاوم للبقع",
-          },
-          {
-            detail: "Resists the formation of fungi and mold",
-            ardetail: "يقاوم تكوين الفطريات والعفن",
-          },
-          {
-            detail: "High chemical-mechanical resistance",
-            ardetail: "مقاومة كيميائية وميكانيكية عالية",
-          },
-          {
-            detail: "Colors unalterable over time, resistant to UV rays",
-            ardetail: "ألوان ثابتة مع مرور الوقت، مقاومة لأشعة الشمس فوق البنفسجية",
+            detail: "Easy to apply",
+            ardetail: "سهل التطبيق",
           },
           {
             detail: "Easy to clean",
             ardetail: "سهل التنظيف",
+          },
+          {
+            detail: "Good chemical and mechanical resistance",
+            ardetail: "مقاومة كيميائية وميكانيكية جيدة.",
+          },
+          {
+            detail: "Suitable for heavy traffic.",
+            ardetail: "مناسبة لحركة المرور الكثيفة.",
+          },
+          {
+            detail: "Resistant to UV rays.",
+            ardetail: "مقاومة لألشعة فوق البنفسجية",
+          },
+          {
+            detail: "Colors unalterable over time.",
+            ardetail: "ألوان ثابتة مع مرور الوقت.",
           },
         ],
         image: weberepoxEasy,
       },
       {
         id: 2,
-        name: "weberfloor 4716 Primer",
+        name: "webercol ProGress Evo",
         description:
-          "Multi-purpose primer based on synthetic resins in aqueous dispersion to even out the absorption of porous substrates when applying self-levelling agents",
-        arname: "ويبرفلور 4716 برايمر",
-        arDescription:
-          "برايمر متعدد الاستخدامات يعتمد على الراتنجات الاصطناعية في تشتت مائي لتوحيد امتصاص الأسطح المسامية عند تطبيق عوامل التسوية الذاتية",
-        image: weberfloor4716Primer,
-      },
-      {
-        id: 3,
-        name: "weberfloor Planitec",
-        description:
-          "Quick-setting cement leveling agent for highly resistant smoothing of internal and external floors and walls",
-        arname: "ويبرفلور بلانيتيك",
-        arDescription:
-          "عامل تسوية سريع الضبط من الأسمنت لتسوية مقاومة للغاية للأرضيات والجدران الداخلية والخارجية",
-        moreDescription: [
-          {
-            detail: "High mechanical resistanc",
-            ardetail: "مقاومة ميكانيكية عالية",
-          },
-          {
-            detail: "High adhesion even at very low thicknesses",
-            ardetail: "تصاق عالي حتى في السماكات المنخفضة جداً",
-          },
-          {
-            detail: "Fast coverage times",
-            ardetail: "أوقات تغطية سريعة",
-          },
-          {
-            detail: "Driveway",
-            ardetail: "مدخل",
-          },
-        ],
-        image: weberfloorPlanitec,
-      },
-      {
-        id: 4,
-        name: "weberfloor Zero30",
-        description:
-          "Quick-setting skimming leveling compound for regularizing up to 30 mm of indoor and outdoor floors and walls",
-        arname: "ويبرفلور زيرو 30",
-        arDescription:
-          "مركب تسوية سريع الضبط لتسوية تصل إلى 30 ملم من الأرضيات والجدران الداخلية والخارجية",
-        moreDescription: [
-          {
-            detail: "High mechanical resistance",
-            ardetail: "مقاومة ميكانيكية عالية",
-          },
-          {
-            detail: "High adhesion even at very low thicknesses",
-            ardetail: "تصاق عالي حتى في السماكات المنخفضة جداً",
-          },
-          {
-            detail: "Fast coverage times",
-            ardetail: "أوقات تغطية سريعة",
-          },
-          {
-            detail: "Ideal for creating slopes",
-            ardetail: "مثالي لإنشاء المنحدرات",
-          },
-        ],
-        image: weberfloorZero30,
-      },
-      {
-        id: 5,
-        name: "weberplan MR81",
-        description:
-          "Ready-made screed with high mechanical strength and medium-fast drying, suitable for receiving any type of ceramic, marble, wood, resin and resilient materials",
-        arname: "ويبربلان إم آر 81",
-        arDescription:
-          "عجينة جاهزة ذات قوة ميكانيكية عالية وجفاف سريع متوسط، مناسبة لاستقبال أي نوع من السيراميك والرخام والخشب والراتنج والمواد المرنة",
-        moreDescription: [
-          {
-            detail: "Very high resistances",
-            ardetail: "مقاومات عالية جداً",
-          },
-          {
-            detail: "Drying in certain times",
-            ardetail: "جفاف في أوقات محددة",
-          },
-          {
-            detail: "For indoor and outdoor applications",
-            ardetail: "للاستخدامات الداخلية والخارجية",
-          },
-          {
-            detail: "Driveway",
-            ardetail: "مدخل",
-          },
-        ],
-        image: weberplanMR81,
-      },
-      {
-        id: 6,
-        name: "weberfloor 4150",
-        description:
-          "Self-levelling cementitious for interiors applicable with thicknesses between 1-30 mm in adhesion to the support",
-        arname: "ويبرفلور 4150",
-        arDescription:
-          "مواد أسمنتية مستوية ذاتية التسوية للداخلية قابلة للتطبيق بسماكات تتراوح بين 1-30 مم بالالتصاق بالدعم",
-        moreDescription: [
-          {
-            detail: "Applicable by machine",
-            ardetail: "قابل للتطبيق بواسطة الآلة",
-          },
-          {
-            detail: "Low shrinkage",
-            ardetail: "انكماش منخفض",
-          },
-          {
-            detail: "Ideal for low-cost perforated radiant systems",
-            ardetail: "مثالي لأنظمة الإشعاع المثقبة منخفضة التكلفة",
-          },
-          {
-            detail: "Quick",
-            ardetail: "سريع",
-          },
-          {
-            detail: "High fluidity",
-            ardetail: "لزوجة عالية",
-          },
-        ],
-        image: weberfloor4150,
-      },
-      {
-        id: 7,
-        name: "weberfloor AL",
-        description: "Self-levelling for internal and external floors",
-        arname: "ويبرفلور آل",
-        arDescription: "مستوية ذاتية للأرضيات الداخلية والخارجية",
-        moreDescription: [
-          {
-            detail: "Very smooth finish",
-            ardetail: "تشطيب ناعم جداً",
-          },
-          {
-            detail: "Excellent self-leveling effect",
-            ardetail: "تأثير التسوية الذاتية الممتاز",
-          },
-          {
-            detail: "Quick hardening",
-            ardetail: "تصلب سريع",
-          },
-          {
-            detail: "Compensated shrinkage",
-            ardetail: "انكماش متعوض",
-          },
-          {
-            detail: "Thicknesses up to 10 mm in a single coat",
-            ardetail: "السماكات تصل إلى 10 مم في طبقة واحدة",
-          },
-        ],
-        image: weberfloorAL,
-      },
-      {
-        id: 8,
-        name: "weberfloor level 250",
-        description:
-          "Anhydrite-based self-levelling fluid screed ideal for application on low-thickness radiant systems",
-        arname: "ويبرفلور ليفيل 250",
-        arDescription:
-          "مونة ذاتية التسوية قائمة على الأنهيدريت مثالية للاستخدام على أنظمة الإشعاع ذات السماكة المنخفضة",
-        moreDescription: [
-          {
-            detail: "Almost zero shrinkage",
-            ardetail: "تقريباً لا يوجد انكماش",
-          },
-          {
-            detail: "Applicable on any type of systemradiant",
-            ardetail: "قابلة للتطبيق على أي نوع من أنظمة الإشعاع",
-          },
-          {
-            detail: "Distributes heat evenly",
-            ardetail: "توزيع الحرارة بالتساوي",
-          },
-        ],
-        image: weberfloorLevel250,
-      },
-      {
-        id: 9,
-        name: "webercol ProGres Evo",
-        description:
-          "High-performance cementitious adhesive for laying stable and moisture-insensitive ceramic stoneware and marble. Ideal for laying over old ceramic or marble floors",
+          "C2TE type high-performance cementitious adhesive, suitable for vertical surfaces due to its low vertical sliding property, as well as for tile surfaces, old natural stones, and bathrooms",
         arname: "ويبركول برو جريس إيفو",
         arDescription:
-          "مادة لاصقة أسمنتية عالية الأداء لتثبيت السيراميك والرخام المستقر والمقاوم للرطوبة. مثالي للتثبيت فوق الأرضيات السيراميكية أو الرخامية القديمة",
+          "مادة الصقة اسمنتية عالية األداء من النوع C2TE، مناسبة لالستخدام على االسطح ال أرسية بسبب خاصية االنزالق العمودي المنخفضة وفوق أسطح البالط واالحجار الطبيعية القديمة والحمامات",
         moreDescription: [
           {
-            detail: "Installation of non-absorbent material even when overlapping",
-            ardetail: "تركيب مواد غير امتصاصية حتى عند التداخل",
+            detail: "High adhesion capability",
+            ardetail: "قدرة التصاق عالية",
           },
           {
-            detail: "No vertical slipping",
-            ardetail: "عدم الانزلاق العمودي",
+            detail: "Low sliding properties.",
+            ardetail: "خاصية انزالق منخفضة",
           },
           {
-            detail: "Extended open time",
-            ardetail: "وقت فتح ممتد",
-          },
-          {
-            detail: "Internal and external",
-            ardetail: "داخلي وخارجي",
+            detail: "Suitable for interior and exterior use.",
+            ardetail: "مناسبة لالستخدام الداخلي والخارجي",
           },
         ],
         image: webercolProGresEvo,
       },
       {
-        id: 10,
+        id: 3,
         name: "webercol Smart",
         description:
-          "Cementitious adhesive with zero vertical slip and high workability. Ideal for indoor installation of small-size stoneware and double-fired ceramic tiles",
+          "C1TE type vertical non-slip cementitious adhesive, ideal for installing small-sized stones on interior surfaces.",
         arname: "ويبركول سمارت",
         arDescription:
-          "مادة لاصقة أسمنتية بانزلاق عمودي صفري وقابلية عالية للعمل. مثالي لتركيب السيراميك الصغيرة الحجم والبلاط السيراميك المضغوط المزدوج في الداخل",
+          "مادة الصقة اسمنتية مانعة لالنزالق العمودي من النوع C1TE، مثالية لتركيب الحجر صغير الحجم على االسطح الداخلية",
         moreDescription: [
           {
-            detail: "High creaminess",
-            ardetail: "كريمية عالية",
+            detail: "High adhesion capability",
+            ardetail: "قدرة التصاق عالية.",
           },
           {
-            detail: "Excellent thickness retention",
-            ardetail: "احتفاظ ممتاز بالسمك",
+            detail: "Suitable for interior and exterior use",
+            ardetail: "مناسبة لالستخدام الداخلي والخارجي",
           },
         ],
         image: webercolSmart,
       },
       {
-        id: 11,
+        id: 4,
         name: "webercol UltraGres 400",
         description:
-          "Deformable cementitious adhesive and high wetting capacity for high-strength bonding. Laying of large formats in overlay and on radiant floors, facade laying, pool laying. Ideal for bonding glassy mosaic",
+          "C2TES1 type cementitious adhesive with high mechanical resistance, suitable for fixing various types of large-sized tiles. It is also ideal for use in wet areas and direct contact with water, such as swimming pools",
         arname: "ويبركول الترا جريس 400",
         arDescription:
-          "مادة لاصقة أسمنتية قابلة للتشويه وذات قدرة عالية على التشبث ذات قوة عالية. تركيب الأحجام الكبيرة في التراكيب وعلى الأرضيات الإشعاعية، تركيب الواجهات، تركيب المسابح. مثالي للتشبيك الفسيفسائي",
+          "مادة لاصقة أسمنتية من النوع C2TES1 ذات مقاومة ميكانيكية عالية، مناسبة لتثبيت أنواع مختلفة من البلاط كبير الحجم. كما أنه مثالي للاستخدام في المناطق الرطبة والاتصال المباشر بالمياه، مثل حمامات السباحة",
         moreDescription: [
           {
-            detail: "Double consistency (thixo or fluid)",
-            ardetail: "تناسق مزدوج (ثكسو أو سائل)",
+            detail: "High adhesion capability",
+            ardetail: "قدرة التصاق عالية ",
           },
           {
-            detail: "High adhesion even on critical substrates",
-            ardetail: "الالتصاق العالي حتى على الأسطح الحرجة",
-          },
-          {
-            detail: "Zero vertical slip",
-            ardetail: "عدم الانزلاق العمودي",
+            detail: "High vertical slip resistance.",
+            ardetail: "قدرة عالية على منع االنزالق العمودي.",
           },
         ],
         image: webercolUltraGres400,
       },
       {
-        id: 12,
+        id: 5,
         name: "webercolor premium",
         description:
-          "Decorative colored cementitious grout for joints up to 15 mm, high-performance, water-repellent, stain-resistant; Protect3 silver ion technology gives it high resistance to bacteria, mold and mildew",
+          "A high-performance colored cement mortar that is resistant to water, bacteria, mold and fungi, used to fill joints up to 15 mm.",
         arname: "ويبركولور بريميوم",
         arDescription:
-          "زلقة أسمنتية ملونة زخرفية للفواصل تصل إلى 15 ملم، عالية الأداء، مقاومة للماء، مقاومة للبقع؛ تكنولوجيا الفضة بروتيكت 3 تمنحه مقاومة عالية للبكتيريا والعفن والفطريات",
+          "مونة اسمنتية ملونة عالية األداء مقاومة للماء والبكتيريا والعفن والفطريات تستخدم لملء الفواصل حتى 15 ملم.",
         moreDescription: [
           {
             detail:
-              "PROTECT3® technology : with silver ions, resistant to bacteria, mould, fungi, algae",
+              "Flexible and water resistant.",
             ardetail:
-              "تكنولوجيا بروتيكت 3®: مع أيونات الفضة، مقاومة للبكتيريا، العفن، الفطريات، الطحالب",
+              "مرنة ومقاومة للماء.",
           },
           {
-            detail: "PURE-CLEAN® technology: resistant to stains it's dirty",
-            ardetail: "تكنولوجيا بيور-كلين®: مقاومة للبقع والأتربة",
+            detail: "Resistant to stains and dirt.",
+            ardetail: "مقاومة للبقع واالوساخ",
           },
           {
-            detail: "Installation of ceramic stoneware in the swimming pool",
-            ardetail: "تركيب السيراميك في حمام السباحة",
+            detail: "Resistant to mold, fungi and bacteria",
+            ardetail: "مقاومة للعفن والفطريات والبكتيريا.",
           },
           {
-            detail: "Installation on the facade",
-            ardetail: "التثبيت على الواجهة",
+            detail: "Resistant to chemical attacks and corrosion.",
+            ardetail: "مقاومة للهجمات الكيميائية والتآكل",
+          },
+          {
+            detail: "Fast drying time.",
+            ardetail: "زمن جفاف سريع",
           },
         ],
         image: webercolorPremium,
       },
       {
-        id: 13,
+        id: 6,
         name: "webercol ProGres Top S1",
         description:
-          "Improved deformability and immersion-resistant cementitious adhesive, ideal for laying ceramic stoneware on facades and pools. Excellent adhesion even when overlaying an old ceramic or marble floor",
+          "C2TES1 type deformable cement adhesive ideal for installing ceramic tiles in facades and swimming pools. It has excellent adhesion ability and can be applied over an old ceramic or marble floors.",
         arname: "ويبركول برو جريس توب اس1",
         arDescription:
-          "مادة لاصقة أسمنتية قابلة للتشويه المحسنة ومقاومة للتغمر، مثالية لتركيب السيراميك الصلب على الواجهات وحمامات السباحة. الالتصاق الممتاز حتى عند تراكيب الأرضيات السيراميكية أو الرخامية القديمة",
+          "ويمكن تطبيقها فوق أرضيات قديمة من السي ارميك او الرخام. واحواض السباحة. تمتلك قدرة التصاق ممتازةالس ارميك في الواجهات الس ارميك في الواجهات مادة الصقة اسمنتية قابلة للتشوه من النوع مثالية لتركيبC2TES1 ",
         moreDescription: [
           {
-            detail: "Installation of any type of ceramic",
-            ardetail: "تركيب أي نوع من السيراميك",
+            detail: "High adhesion capability.",
+            ardetail: "قدرة التصاق عالية.",
           },
           {
-            detail: "Overlapping installation",
-            ardetail: "تركيب متداخل",
-          },
-          {
-            detail: "Installation of ceramic stoneware in the swimming pool",
-            ardetail: "تركيب السيراميك في حمام السباحة",
-          },
-          {
-            detail: "Installation on the facade",
-            ardetail: "التثبيت على الواجهة",
+            detail: "Used to install any type of ceramic.",
+            ardetail: "تستخدم لتركيب أي نوع من الس ارميك.",
           },
         ],
         image: webercolProGresTopS1,
       },
       {
-        id: 14,
+        id: 7,
         name: "webercolor basic",
         description:
-          "Decorative extra-fine colored cementitious grout for joints up to 4 mm, low water absorption, easy to clean, for indoor and outdoor applications",
+          "Colored single-component cement mortar used to fill joints up to 4 mm, suitable for use in interior and exterior areas.",
         arname: "ويبركولور بيسيك",
         arDescription:
-          "زلقة أسمنتية ملونة زخرفية إضافية النعومة للفواصل تصل إلى 4 ملم، امتصاص ماء منخفض، سهلة التنظيف، للاستخدامات الداخلية والخارجية",
+          "مونة اسمنتية أحادية المكون ملونة تستخدم لملء الفواصل حتى 4 مم، مناسبة لالستخدام في المناطق الداخلية والخارجية.",
         moreDescription: [
           {
-            detail: "Easy workability and cleaning even with surfaces in pairs",
-            ardetail: "سهولة التشغيل والتنظيف حتى مع الأسطح في الأزواج",
+            detail: "water resistant.",
+            ardetail: "مقاومة للماء",
           },
           {
-            detail: "Low shrinkage",
-            ardetail: "انكماش منخفض",
+            detail: "Can be walked on.",
+            ardetail: "يمكن المشي عليها.",
           },
           {
-            detail: "Stable colours",
-            ardetail: "ألوان مستقرة",
-          },
-          {
-            detail: "Smooth finish",
-            ardetail: "تشطيب ناعم",
+            detail: "Gives a smooth finish to surfaces.",
+            ardetail: "تعطي تشطيب ناعم لألسطح",
           },
         ],
         image: webercolorBasic,
       },
       {
-        id: 15,
+        id: 8,
         name: "webercol UltraGres Flex",
-        description: "Highly deformable cementitious adhesive with high mechanical resistance",
+        description: "C2TES2 type highly resistant deformable cementitious adhesive used for installing large tiles on old facades and floors",
         arname: "ويبركول الترا جريس فليكس",
-        arDescription: "مادة لاصقة أسمنتية قابلة للتشويه بشكل كبير مع مقاومة ميكانيكية عالية",
+        arDescription: "C2TES2 اسمنتية قابلة للتشوه عالية المقاومة من النوع مادة الصقة تستخدم لتركيب البالط الكبير على الواجهات واالرضيات.",
         moreDescription: [
           {
-            detail: "High wetting capacity and high adhesion to the support",
-            ardetail: "سعة عالية لامتصاص الرطوبة والالتصاق العالي بالدعم",
+            detail: "High adhesion capability",
+            ardetail: "قدرة التصاق عالية",
           },
           {
             detail:
-              "Particularly suitable for installation on facades low thickness, large format stoneware slabs",
-            ardetail: "مناسب بشكل خاص للتركيب على واجهات منخفضة السمك، بلاط سيراميك كبير الحجم",
-          },
-          {
-            detail: "Ideal for installation on a coating system webertherm robust universal",
-            ardetail: "مثالي للتثبيت على نظام تغليف ويبرثيرم روبست يونيفرسال",
+              "Suitable for installing large and low thickness tiles.",
+            ardetail: "مناسبة لتركيب البالط كبير الحجم ومنخفض السمك",
           },
         ],
         image: webercolUltraGresFlex,
       },
       {
-        id: 15,
-        name: "weberprim PF15",
-        description: "Insulating and consolidating primer in water dispersion",
-        arname: "ويبربريم PF15",
-        arDescription: "بادئ عازل وموحد في تشتت الماء",
+        id: 9,
+        name: "Weberfix plus",
+        arname: "ويبرفيكس بلس",
+        description: "Moisture resistant tile adhesive suitable for interior use.",
+        arDescription: "الصق بالط مقاوم للرطوبة مناسب لالستخدام الداخلي.",
         moreDescription: [
           {
-            detail: "Strong penetration",
-            ardetail: "اختراق قوي",
+            detail: "Ready to use.",
+            ardetail: "جاهز لالستخدام",
           },
           {
-            detail: "Insulation of gypsum and anhydrite surfaces",
-            ardetail: "عزل الأسطح الجبسية والأنهيدريت",
+            detail: "High slip resistance.",
+            ardetail: "قدرة عالية على منع االنزالق",
           },
           {
-            detail: "Ideal for installation on a coating system webertherm robust universal",
-            ardetail: "مثالي للتثبيت على نظام تغليف ويبرثيرم روبست يونيفرسال",
+            detail: "Suitable for use on dry and wet surfaces.",
+            ardetail: "مناسب لالستخدام على االسطح الجافة والرطبة.",
           },
           {
-            detail: "Eliminates surface dusting of screeds and plasters",
-            ardetail: "يزيل ترسيب الغبار السطحي للأسمنت والجص",
+            detail: "Suitable for use in bathrooms and kitchens.",
+            ardetail: "مناسب لالستخدام في الحمامات والمطابخ.",
+          },
+          {
+            detail: "Not suitable for exterior surfaces and very wet areas such as swimming pools.",
+            ardetail: "غير مناسب مع االسطح الخارجية والرطبة جدا متل احواض السباحة.",
           },
         ],
-        image: weberprimPF15,
+        image: weberFixPlus,
+      },
+      {
+        id: 10,
+        name: "weberfix premium ²",
+        description:
+          "Lightweight moisture resistant tile adhesive ready to use",
+        arname: "ويبركولور بريميوم",
+        arDescription:
+          "الصق بالط خفيف الوزن مقاوم للرطوبة جاهز لالستخدام.",
+        moreDescription: [
+          {
+            detail:
+              "High slip resistance.",
+            ardetail:
+              "قدرة عالية على منع االنزالق.",
+          },
+          {
+            detail: "Suitable for use in bathrooms",
+            ardetail: "مناسب لالستخدام في الحمامات",
+          },
+          {
+            detail: "Not suitable for very wet surfaces such as swimming pools",
+            ardetail: "غير مناسب مع االسطح الرطبة ج˝دا متل احواض السباحة.",
+          },
+        ],
+        image: weberfixPremium2,
+      },
+      {
+        id: 11,
+        name: "Weberfix pro",
+        arname: "ويبرفيكس برو",
+        description: "Moisture resistant tile adhesive used for new surfaces.",
+        arDescription: "الصق بالط مقاوم للرطوبة يستخدم لألسطح الجديدة",
+        moreDescription: [
+          {
+            detail: "Ready to use",
+            ardetail: "جاهز لالستخدام",
+          },
+          {
+            detail: "Suitable for use in bathrooms and kitchens",
+            ardetail: "مناسب لالستخدام في الحمامات والمطابخ",
+          },
+        ],
+        image: weberfixPro,
+      },
+      {
+        id: 12,
+        name: "Weberfix sol",
+        arname: "ويبرفيكس سول",
+        description: "Ready-to-use paste adhesive for interior surfaces",
+        arDescription: "غراء اللصق جاهز للاستخدام على السطح الداخلية",
+        moreDescription: [
+          {
+            detail: "Used for adhering new tiles over old tiles without the need for a primer.",
+            ardetail: "يستخدم للصق البالط الجديد على القديم دون الحاجة الى مادة أولية.",
+          },
+          {
+            detail: "Not suitable for very wet surfaces such as swimming pools.",
+            ardetail: "غير مناسب مع االسطح الرطبة جدا متل احواض السباحة.",
+          },
+          {
+            detail: "Reduces the formation of hairline cracks.",
+            ardetail: "تقلل من تكوين التشققات الشعرية.",
+          },
+          {
+            detail: "Reinforced with fiber.",
+            ardetail: "مقوى باأللياف.",
+          },
+          {
+            detail: "It can be combined with Weber threm thermal insulation systems",
+            ardetail: "يمكن دمجها مع أنظمة العزل الح ارري threm .weber",
+          },
+          {
+            detail: "Resistant to heat and frost",
+            ardetail: "مقاوم للحرارة والصقيع",
+          },
+        ],
+        image: weberfixSol,
       },
     ],
   },
   {
-    id: 5,
-    name: "Waterproofing solutions",
-    arname: "حلول العزل المائي",
+    id: 6,
+    name: "A variety of waterproofing solutions",
+    arname: "مجموعة متنوعة من حلول العزل المائي",
     items: [
       {
         id: 1,
         name: "weberdry ELASTO",
         arname: "ويبردراي الايلاستو",
         description:
-          "Rubber and polypropylene fabric waterproofing accessories compatible with elasto-cement waterproofing guiane from the weberdry line and liquid waterproofers from the weberdry pronto line",
+          "Rubber bands made of rubber and waterproof polyurethane material suitable for interior and exterior use.",
         arDescription:
-          "ملحقات مقاومة للماء مصنوعة من المطاط ونسيج البولي بروبيلين متوافقة مع مواد تسريب الإيلاستو سيمنت من خط ويبردراي والمواد السائلة لتسريب الإيلاستو من خط ويبردراي برونتو",
+          "اشرطة مطاطية مصنوعة من المطاط ومادة البولي يوريثان مقاومة للماء مناسبة لالستخدام الداخلي والخارجي.",
         moreDescription: [
           {
-            detail: "High elasticity",
+            detail: "High flexibility",
             ardetail: "مرونة عالية",
           },
           {
-            detail: "Excellent waterproofness",
-            ardetail: "مقاومة ممتازة للماء",
+            detail: "Easy to install",
+            ardetail: "سهلة التركيب",
+          },
+          {
+            detail: "Good water resistance",
+            ardetail: "مقاومة جيدة للماء",
           },
           {
             detail: "Good chemical resistance",
             ardetail: "مقاومة جيدة للمواد الكيميائية",
-          },
-          {
-            detail: "Ease of installation",
-            ardetail: "سهولة التركيب",
           },
         ],
         image: weberdryELASTO,
@@ -997,45 +1176,29 @@ export default [
         name: "weberdry elasto1 top",
         arname: "ويبردراي الاستو 1 الأعلى",
         description:
-          "Versatile, fibered, single-component elasto-cement waterproofing sheathing that is easy to apply",
+          "Single-component waterproof cement membrane with versatile uses.",
         arDescription:
-          "غشاء عازل للماء متعدد الاستخدامات والألياف والكمبيوتر الواحد للماء الذي يسهل التطبيق",
+          "غشاء اسمنتي احادي المكون عازل للماء متعدد االستخدامات.",
         moreDescription: [
           {
-            detail: "Application with spatula/roller/brush",
-            ardetail: "التطبيق بالملاط / الرولر / الفرشاة",
+            detail: "Good resistance to cracks.",
+            ardetail: "مقاومة جيدة للتشققات.",
           },
           {
-            detail: "Excellent flexibility even at low temperatures(-20°C)",
-            ardetail: "مرونة ممتازة حتى في درجات حرارة منخفضة (-20 ° C)",
+            detail: "Can adhere to damp, but not wet, surfaces",
+            ardetail: "يمكن ان يلتصق باألسطح الرطبة وليس المبللة",
           },
           {
-            detail: "Resists cracking over 2mm like the best two-component products",
-            ardetail: "يقاوم التشقق أكثر من 2 مم مثل أفضل المنتجات ذات المكونين",
+            detail: "Fiber reinforced so it can be used without mesh.",
+            ardetail: "مقوى باأللياف لذلك يمكن استخدامه بدون شبكة.",
           },
           {
-            detail: "Can remain visible",
-            ardetail: "يمكن أن يظل مرئياً",
+            detail: "Excellent flexibility even at low temperatures (-20°C).",
+            ardetail: "مرونة ممتازة حتى في درجات الح اررة المنخفضة 20-( درجة مئوية.)",
           },
           {
-            detail: "Tileable after 24 hours",
-            ardetail: "يمكن تبليطه بعد 24 ساعة",
-          },
-          {
-            detail: "Resistant to counterthrust",
-            ardetail: "مقاوم للضغط المضاد",
-          },
-          {
-            detail: "Fibred, also applicable without net",
-            ardetail: "مليء بالألياف ، يمكن تطبيقه أيضًا دون شبكة",
-          },
-          {
-            detail: "Also adheres to damp, not wet, substrates",
-            ardetail: "يتم الالتصاق أيضًا بالأسطح الرطبة ، وليس الرطبة",
-          },
-          {
-            detail: "Protective of concrete, to increase its durability",
-            ardetail: "حماية الخرسانة لزيادة متانتها",
+            detail: "Tiles can be installed 24 hours after application.",
+            ardetail: "يمكن تركيب البالط بعد 24 ساعة من التطبيق.",
           },
         ],
         image: weberdryElasto1Top,
@@ -1045,37 +1208,25 @@ export default [
         name: "weberdry Elasto2",
         arname: "ويبردراي الاستو 2",
         description:
-          "Two-component elasto-cement waterproofing membrane. Waterproofing suitable for contact with potable water",
+          "Two-component waterproof cement membrane.",
         arDescription:
-          "غشاء عازل للماء من الاسمنت اللاصق ذو المكونين. عازل للماء مناسب للاتصال بالمياه الصالحة للشرب",
+          "غشاء اسمنتي ثنائي المكون عازل للماء.",
         moreDescription: [
-          {
-            detail: "Can remain visible and resists UV rays",
-            ardetail: "يمكن أن يظل مرئيًا ويقاوم أشعة الشمس فوق البنفسجية",
-          },
-          {
-            detail: "Suitable for contact with drinking water",
-            ardetail: "مناسب للاتصال بالمياه الصالحة للشرب",
-          },
-          {
-            detail: "Fibrate",
-            ardetail: "فيبرات",
-          },
           {
             detail: "Excellent flexibility",
             ardetail: "مرونة ممتازة",
           },
           {
-            detail: "Tileable",
-            ardetail: "قابل للبلاط",
+            detail: "Protects concrete from carbonation.",
+            ardetail: "يحمي الخرسانة من الكربنة.",
           },
           {
-            detail: "Protects concrete from carbonation",
-            ardetail: "يحمي الخرسانة من التكربنة",
+            detail: "Good UV resistance.",
+            ardetail: "مقاومة جيدة لألشعة فوق البنفسجية.",
           },
           {
-            detail: "Suitable for counterthrust interventions",
-            ardetail: "مناسب للتدخلات المضادة للضغط",
+            detail: "Suitable for use with surfaces in contact with drinking water.",
+            ardetail: "ناسب لالستخدام مع االسطح المالمسة لمياه الشرب.",
           },
         ],
         image: weberdryElasto2,
@@ -1085,26 +1236,17 @@ export default [
         name: "weberdry MAT",
         arname: "ويبردراي مات",
         description:
-          "Glass fiber reinforcement mat consisting of randomly oriented fibers for polyurethane waterproofing membranes in the weberdry PUR line and for non-fiber liquid waterproofing membranes in the weberdry pronto line",
+          "A reinforcement mesh consisting of glass fibers used for waterproofing.",
         arDescription:
-          "بطانة تعزيز الألياف الزجاجية تتألف من ألياف متجهة عشوائيًا لأغشية العزل الأمامية بالبولي يوريثين في خط weberdry PUR ولأغشية العزل السائلة غير الألياف في خط weberdry pronto",
+          "شبكة تقوية تتكون من الياف زجاجية تستخدم للعزل المائي.",
         moreDescription: [
           {
-            detail: "Extreme ease of application",
-            ardetail: "سهولة فائقة في التطبيق",
+            detail: "Easy to apply",
+            ardetail: "سهل التطبيق",
           },
           {
-            detail: "It adapts easily to any shape of installation surface",
-            ardetail: "يتكيف بسهولة مع أي شكل لسطح التركيب",
-          },
-          {
-            detail:
-              "Perfectly compatible with the membraneliquida weberdry PUR seal eÿweberdry PUR seal 2K",
-            ardetail: "متوافق تمامًا مع membraneliquida weberdry PUR seal وÿweberdry PUR seal 2K",
-          },
-          {
-            detail: "Also compatible with non-fibre products from the line Weberdry Pronto",
-            ardetail: "متوافق أيضًا مع منتجات غير الألياف من خط Weberdry Pronto",
+            detail: "Easily adapts to any surface",
+            ardetail: "تتكيف بسهوله مع أي سطح.",
           },
           {
             detail: "Increases the mechanical properties of the system",
@@ -1118,45 +1260,37 @@ export default [
         name: "weberdry pronto24",
         arname: "ويبردراي برونتو 24",
         description:
-          "Ready-to-use colored waterproofing liquid sheathing. Waterproofing agent suitable for encapsulation of type A asbestos cement",
+          "Ready-to-use colored liquid waterproof membrane suitable for waterproofing and encapsulation of ASBESTO cement.",
         arDescription:
-          "غشاء سائل عازل للماء ملون جاهز للاستخدام. عامل عازل للماء مناسب لتغليف الأسمنت الأسبستوسي من النوع A",
+          "غشاء سائل ملون مقاوم للماء جاهز لالستخدام مناسب للعزل المائي",
         moreDescription: [
           {
-            detail: "Certified for cement encapsulation-a-pause",
-            ardetail: "معتمد لتغليف الأسمنت - وقفة",
+            detail: "High flexibility",
+            ardetail: "مرونة عالية",
           },
           {
-            detail: "Colorful and waterproof",
-            ardetail: "ملونة ومقاومة للماء",
+            detail: "Good water resistance",
+            ardetail: "مقاومة جيدة للماء.",
           },
           {
-            detail: "Highly elastic",
-            ardetail: "مرنة للغاية",
+            detail: "Solvent free.",
+            ardetail: "خالي من المذيبات",
           },
           {
-            detail: "Create a vapor barrier",
-            ardetail: "إنشاء حاجز بخار",
+            detail: "Odorless.",
+            ardetail: "عديم ال ارئحة.",
           },
           {
-            detail: "Compatible with cementitious binders",
-            ardetail: "متوافق مع الملزمات الأسمنتية",
+            detail: "Non-flammable.",
+            ardetail: "غير قابل لالشتعال.",
           },
           {
-            detail: "Advantageous for complex surfaces",
-            ardetail: "مفيدة للأسطح المعقدة",
+            detail: "Non-toxic.",
+            ardetail: "غير سام.",
           },
           {
-            detail: "Can be covered immediately with tiles ceramics",
-            ardetail: "يمكن تغطيته على الفور بالسيراميك",
-          },
-          {
-            detail: "Non-toxic, solvent-free, non-flammable",
-            ardetail: "غير سامة وخالية من الذوبان وغير قابلة للاشتعال",
-          },
-          {
-            detail: "Odourless",
-            ardetail: "لا رائحة",
+            detail: "Good UV resistance.",
+            ardetail: "مقاومة جيدة لألشعة فوق البنفسجية.",
           },
         ],
         image: weberdryPronto24,
@@ -1165,48 +1299,40 @@ export default [
         id: 6,
         name: "weberdry pronto25",
         arname: "ويبردراي برونتو 25",
-        description: "Ready-to-use coloured, fiber-based, elastomeric-based waterproofing",
-        arDescription: "عازل ماء جاهز للاستخدام باللون ، معتمد على الألياف ، معتمد على الإيلاستومر",
+        description: "Ready-to-use	fiber-reinforced	waterproof	sheath suitable for waterproofing and sun reflection.",
+        arDescription: "غالف مقاوم للماء مقوى باأللياف جاهز لالستخدام للعزل المائي مناسب وعكس أشعة الشمس.",
         moreDescription: [
           {
-            detail: "Creates long-lasting and resistant waterproofing hardships",
-            ardetail: "يخلق عوائق عازلة متينة ومقاومة للماء",
+            detail: "Reinforced with fibers",
+            ardetail: "مقوى باأللياف.",
           },
           {
-            detail: "Excellent adhesion on various materials",
-            ardetail: "الالتصاق الممتاز على مواد مختلفة",
+            detail: "Walkable.",
+            ardetail: "يمكن المشي علية.",
           },
           {
-            detail: "Resistant to prolonged contact with water",
-            ardetail: "مقاوم للاتصال المطول بالماء",
+            detail: "Good water resistance",
+            ardetail: "مقاومة جيدة للماء",
           },
           {
-            detail: "Elastic, resistant to UV rays and any microcracks",
-            ardetail: "مرنة ، مقاومة لأشعة الشمس فوق البنفسجية وأي شقوق صغيرة",
+            detail: "Odorless",
+            ardetail: "عديم ال ارئحة.",
           },
           {
-            detail: "Fibrate",
-            ardetail: "فيبرات",
+            detail: "Non-toxic",
+            ardetail: "غير سام",
           },
           {
-            detail: "Create walkable surfaces",
-            ardetail: "إنشاء أسطح قابلة للمشي",
+            detail: "Solvent-free.",
+            ardetail: "خالي من المذيبات.",
           },
           {
-            detail: "SRI - Solar Reflectance Index 100% (versione bianca)",
-            ardetail: "مؤشر الانعكاس الشمسي 100٪ (الإصدار الأبيض)",
+            detail: "Non-flammable.",
+            ardetail: "غير قابل لالشتعال",
           },
           {
-            detail: "Resistant to static indentation: Level L4 (With load category P4)",
-            ardetail: "مقاوم للانخفاض الثابت: المستوى L4 (مع فئة الحمولة P4)",
-          },
-          {
-            detail: "Resistant to dynamic indentation: Level L2 (punch diameter 20 mm)",
-            ardetail: "مقاوم للانخفاض الديناميكي: المستوى L2 (قطر اللكم 20 ملم)",
-          },
-          {
-            detail: "Non-toxic, odorless, solvent-free, non-flammable mable",
-            ardetail: "غير سامة ، لا رائحة ، خالية من الذوبان ، غير قابلة للاشتعال",
+            detail: "Good UV resistance.",
+            ardetail: "مقاومة جيدة لألشعة فوق البنفسجية.",
           },
         ],
         image: weberdryPronto25,
@@ -1216,47 +1342,30 @@ export default [
         name: "weberdry PUR flex30",
         arname: "ويبردراي بور فليكس 30",
         description:
-          "Single-component, low-modulus, gun extrudable, permanently elastic polyurethane sealant",
+          "Single-component polyurethane flexible sealant.",
         arDescription:
-          "مانع تسرب البولي يوريثان مرن دائمًا ، قابل للتطبيق بالمسدس ، منخفض الوحدات ، قابل للطرد",
+          "مانع للتسرب مرن احادي المكون من مادة البولي يوريثان.",
         moreDescription: [
           {
             detail:
-              "Excellent adhesion to building materials (concrete, masonry, wood, metal, etc.)",
-            ardetail: "الالتصاق الممتاز بمواد البناء (الخرسانة ، الطوب ، الخشب ، المعدن ، إلخ)",
+              "Easy to apply.",
+            ardetail: "سهل التطبيق.",
           },
           {
-            detail: "Permanently elastic over wide range therma",
-            ardetail: "مرنة بشكل دائم على نطاق واسع",
+            detail: "Good adhesion ability.",
+            ardetail: "قدرة التصاق جيدة",
           },
           {
-            detail: "Easy to apply, extrude and level",
-            ardetail: "سهل التطبيق والطرد والمستوى",
+            detail: "Walkable and paintable.",
+            ardetail: "قابل للمشي والطالء",
           },
           {
-            detail: "Does not drip or stick",
-            ardetail: "لا يتنقط أو يلتصق",
+            detail: "Resistant to seawater and cleaning materials.",
+            ardetail: "مقاوم لمياه البحر ومواد التنظيف",
           },
           {
-            detail: "Does not spin at take-off",
-            ardetail: "لا تدور عند الإقلاع",
-          },
-          {
-            detail: "Good resistance to aging and atmospheric agents",
-            ardetail: "مقاومة جيدة للشيخوخة والعوامل الجوية",
-          },
-          {
-            detail:
-              "Good resistance to immersion in cleaning agents, sea water, diluted basic solutions",
-            ardetail: "مقاومة جيدة للانغمار في مواد التنظيف ومياه البحر والمحاليل القاعدية المخففة",
-          },
-          {
-            detail: "Over-paintable",
-            ardetail: "قابل للطلاء",
-          },
-          {
-            detail: "Glues and seals at the same time",
-            ardetail: "يلصق ويختم في نفس الوقت",
+            detail: "Retains its flexibility over a wide range of temperatures.",
+            ardetail: "يحتفظ بمرونته عند نطاق واسع من درجات الج اررة.",
           },
         ],
         image: weberdryPURflex30,
@@ -1265,59 +1374,43 @@ export default [
         id: 8,
         name: "weberdry PUR seal",
         arname: "ويبردراي بور سيل",
-        description: "Single-component, UV-resistant, super-elastic polyurethane liquid membrane",
-        arDescription: "غشاء سائل من البولي يوريثان ، مقاوم لأشعة الشمس فوق البنفسجية ، مرن للغاية",
+        description: "Single-component liquid polyurethane waterproofing membrane, super-flexible and UV resistant.",
+        arDescription: "غشاء سائل احادي المكون عازل للماء من مادة البولي يوريثان فائق المرونة ومقاوم لألشعة فوق البنفسجية.",
         moreDescription: [
           {
-            detail: "CE marked as awaterproofing in the ETA system - European Technical Assessment",
-            ardetail: "معتمد كعازل للماء في نظام ETA - التقييم الفني الأوروبي",
+            detail: "Easy to apply",
+            ardetail: "سهل التطبيق",
           },
           {
-            detail: "Easy to apply (roller or spray)",
-            ardetail: "سهل التطبيق (أسطواني أو بخاخ)",
+            detail: "Excellent flexibility.",
+            ardetail: "مرونة ممتازة.",
           },
           {
-            detail: "High crack-bridging",
-            ardetail: "جسر عالي للشقوق",
+            detail: "Fills cracks.",
+            ardetail: "يسد الشقوق",
           },
           {
-            detail: "BROOF T4 certificate in the ETA system - Evaluation European technique",
-            ardetail: "شهادة BROOF T4 في نظام ETA - التقييم الفني الأوروبي",
+            detail: "Easy to repair if damaged",
+            ardetail: "سهل التصليح في حالة اتالفه.",
           },
           {
-            detail: "Permeable to water vapour",
-            ardetail: "مسامي للبخار",
+            detail: "Good UV resistance.",
+            ardetail: "مقاومة جيدة لألشعة فوق البنفسجية.",
           },
           {
-            detail: "SRI 98% (white version)",
-            ardetail: "مؤشر الانعكاس الشمسي 98٪ (النسخة البيضاء)",
+            detail: "High ventilation allows water vapor to pass through it.",
+            ardetail: "تهوية عالية يسمح لبخار الماء المرور من خالله.",
           },
           {
             detail:
-              "Resists detergents, oils, sea water and pro-chemical products for domestic use",
+              "Good resistance to seawater, oils, detergents and chemicals.",
             ardetail:
-              "يقاوم المنظفات والزيوت ومياه البحر والمنتجات الكيميائية الاحترافية للاستخدام المنزلي",
+              "مقاومة جيدة لمياه البحر والزيوت والمنظفات والمواد الكيميائية.",
           },
           {
-            detail: "Resistant to UV rays, maintains its properties yes -40°C to +90°C",
+            detail: "Suitable for pedestrian and light traffic.",
             ardetail:
-              "مقاوم لأشعة الشمس فوق البنفسجية ، يحتفظ بخصائصه من -40 درجة مئوية إلى +90 درجة مئوية",
-          },
-          {
-            detail: "With a suitable finish suitable for pedestrian traffic and light vehicle",
-            ardetail: "مع تشطيب مناسب مناسب لحركة المشاة والمركبات الخفيفة",
-          },
-          {
-            detail: "Root resistant",
-            ardetail: "مقاوم للجذور",
-          },
-          {
-            detail: "Under-tile waterproofing",
-            ardetail: "عازل تحت البلاط",
-          },
-          {
-            detail: "Easy to repair in case of damage",
-            ardetail: "سهل الإصلاح في حالة التلف",
+              "مناسب لحركة مرور المشاة والحركة الخفيفة",
           },
         ],
         image: weberdryPURseal,
@@ -1327,31 +1420,21 @@ export default [
         name: "weberdry OSMO clsG",
         arname: "ويبردراي أوسمو clsG",
         description:
-          "Low-thickness osmotic waterproofing mortar in gray color. Waterproofing mortar resistant to aggressive water, suitable for contact with potable water",
+          "Waterproof mortar suitable for surfaces in contact with drinking water",
         arDescription:
-          "ملاط عازل منخفض السماكة باللون الرمادي. ملاط عازل للماء مقاوم للمياه العدوانية ، مناسب للاتصال بالمياه الصالحة للشرب",
+          "مونة عازلة للماء مناسبة لألسطح المالمسة لمياه الشرب",
         moreDescription: [
           {
-            detail: "Cement waterproofing resistant to aggressive thrust and counter-thrust water",
-            ardetail: "مقاومة للماء العدوانية والمضادة للماء",
+            detail: "Good water resistance",
+            ardetail: "مقاومة جيدة للماء",
           },
           {
-            detail: "Unalterable and long-lasting",
-            ardetail: "ثابتة ودائمة",
+            detail: "Suitable for use on surfaces in contact with drinking water",
+            ardetail: "مناسبة لالستخدام على االسطح المالمسة لمياه الشرب",
           },
           {
-            detail:
-              "Suitable for waterproofing tanks containment of sulphate waters and industrial waste and food, gear oils, paints (Resistant to chemicals according to EN1504-2)",
-            ardetail:
-              "مناسبة لتسريب خزانات حجب المياه الكبريتية والنفايات الصناعية والغذائية ، والزيوت التروسية ، والدهانات (مقاومة للمواد الكيميائية وفقًا للمواصفة EN1504-2)",
-          },
-          {
-            detail: "Suitable for contact with drinking water",
-            ardetail: "مناسبة للاتصال بالمياه الصالحة للشرب",
-          },
-          {
-            detail: "Suitable for waterproofing all foundations",
-            ardetail: "مناسبة لتسريب جميع الأساسات",
+            detail: "Good resistance to negative and positive pressure.",
+            ardetail: "مقاومة جيدة للضغط السلبي او اإليجابي.",
           },
         ],
         image: weberdryOSMOclsG,
@@ -1359,188 +1442,159 @@ export default [
       {
         id: 10,
         name: "weberprim EP 2K",
-        description:
-          "Water-based two-component transparent epoxy primer for waterproofing membranes in the weberdry PUR line, for absorbent and nonabsorbent surfaces",
-        moreDescription: [
-          {
-            detail: "Suitable for absorbent and non-absorbent surfaces",
-          },
-          {
-            detail: "Applicable on damp surfaces",
-          },
-          {
-            detail: "Resists stagnant water and frost",
-          },
-          {
-            detail: "Can be diluted with water",
-          },
-          {
-            detail: "Stops chalking of materials",
-          },
-          {
-            detail: "Filler for porous surfaces",
-          },
-          {
-            detail: "Resistant to chemicals",
-          },
-        ],
-        image: weberprimEP2K,
-      },
-      {
-        id: 10,
-        name: "weberprim EP 2K",
         arname: "ويبربريم إي بي 2K",
         description:
-          "Water-based two-component transparent epoxy primer for waterproofing membranes in the weberdry PUR line, for absorbent and nonabsorbent surfaces",
+          "Water-based transparent epoxy primer consisting of two components, specially designed for waterproofing absorbent and non- absorbent surfaces.",
         arDescription:
-          "برايمر إيبوكسي شفاف قائم على الماء ثنائي المكونات لأغشية العزل في خط ويبردراي بي يو آر ، للأسطح الامتصاصية وغير الامتصاصية",
+          "ب اريمر ايبوكسي شفاف ذو أساس مائي يتكون من مركبين مصمم خصيصا للعزل المائي لألسطح الماصة وغير الماصة",
         moreDescription: [
           {
-            detail: "Suitable for absorbent and non-absorbent surfaces",
-            ardetail: "مناسب للأسطح الامتصاصية وغير الامتصاصية",
-          },
-          {
-            detail: "Applicable on damp surfaces",
-            ardetail: "قابل للتطبيق على الأسطح الرطبة",
-          },
-          {
-            detail: "Resists stagnant water and frost",
-            ardetail: "يقاوم الماء الراكد والصقيع",
-          },
-          {
-            detail: "Can be diluted with water",
-            ardetail: "يمكن تخفيفه بالماء",
-          },
-          {
-            detail: "Stops chalking of materials",
-            ardetail: "يمنع تحول المواد إلى بودرة",
+            detail: "Shock resistant",
+            ardetail: "مقاوم للصدمات",
           },
           {
             detail: "Filler for porous surfaces",
             ardetail: "حشو للأسطح المسامية",
           },
           {
-            detail: "Resistant to chemicals",
-            ardetail: "مقاوم للمواد الكيميائية",
+            detail: "Applicability to wet surfaces",
+            ardetail: "قابلية  للتطبيق على الأسطح الرطبة",
+          },
+          {
+            detail: "Good resistance to standing water and frost.",
+            ardetail: "مقاومة جيدة للماء ال اركد والصقيع.",
+          },
+          {
+            detail: "It can be diluted with water",
+            ardetail: "يمكن تخفيفه بالماء",
+          },
+          {
+            detail: "High chemical resistance",
+            ardetail: "مقاومة كيميائية عالية",
+          },
+          {
+            detail: "Water-based and low odor.",
+            ardetail: "ذو أساس مائي و ارئحة منخفضة.",
+          },
+          {
+            detail: "Can be applied to absorbent and non- absorbent surfaces.",
+            ardetail: "يمكن تطبيقه على الماصة وغير الماصة.",
           },
         ],
         image: weberprimEP2K,
       },
       {
         id: 11,
-        name: "weberdry reflex-P",
-        arname: "ويبردراي ريفلكس-بي",
-        description: "High solar reflectance index (SRI) paint for energy saving",
-        arDescription: "طلاء ذو معامل انعكاس شمسي عالي (SRI) لتوفير الطاقة",
-        moreDescription: [
-          {
-            detail: "UV resistant",
-            ardetail: "مقاوم للأشعة فوق البنفسجية",
-          },
-          {
-            detail: "Solar reflectance",
-            ardetail: "قدرة على انعكاس الطاقة الشمسية",
-          },
-        ],
-        image: weberdryReflexP,
-      },
-      {
-        id: 12,
         name: "weberprim PUR 1K",
         arname: "ويبربريم بي يو آر 1K",
         description:
-          "Quick-drying, transparent, solvent-based, single-component polyurethane primer for absorbent surfaces",
+          "A single-component, quick-drying polyurethane primer specially designed for waterproofing absorbent surfaces",
         arDescription:
-          "برايمر بولي يوريثان سريع الجفاف ، شفاف ، قائم على المذيبات ، ثنائي المكونات ، للأسطح الامتصاصية",
+          " ،ب اريمر احادي المكون سريع الجفاف من مادة البولي يوريثان مصمم خصيصا للعزل المائي  للأسطح الامتصاصية",
         moreDescription: [
-          {
-            detail: "Quick drying",
-            ardetail: "سريع الجفاف",
-          },
           {
             detail: "Easy to apply",
             ardetail: "سهل التطبيق",
           },
           {
-            detail: "Excellent anchoring on absorbent surfaces",
-            ardetail: "تثبيت ممتاز على الأسطح الامتصاصية",
+            detail: "Quick drying",
+            ardetail: "سريع الجفاف",
           },
           {
-            detail: "Resistant to water stagnation",
-            ardetail: "مقاوم لتجمع المياه",
-          },
-          {
-            detail: "Provides high tensile and wear resistance impacts",
-            ardetail: "يوفر مقاومة عالية للشد والتآكل",
+            detail: "Provides high tensile strength",
+            ardetail: "يوفر يوفر قوة شد عالية",
           },
           {
             detail: "Resistant to heat and frost",
             ardetail: "مقاوم للحرارة والصقيع",
           },
+          {
+            detail: "Good resistance to standing water",
+            ardetail: "مقاومة جيدة للماء ال اركد.",
+          },
+          {
+            detail: "Can be applied to absorbent surfaces",
+            ardetail: "يمكن تطبيقه على االسطح الماصة",
+          },
         ],
         image: weberprimPUR1K,
       },
-    ],
-  },
-  {
-    id: 6,
-    name: "Laying tiles",
-    arname: "وضع البلاط",
-    items: [
       {
-        id: 1,
-        name: "Weberfix plus",
-        arname: "ويبرفيكس بلس",
-        description: "Ready-to-use, moisture-resistant bathroom adhesive",
-        arDescription: "غراء الحمام مقاوم للرطوبة جاهز للاستخدام",
-        image: weberFixPlus,
-      },
-      {
-        id: 2,
-        name: "webersan evocalce",
-        arname: "ويبرسان إيفوكالس",
-        description: "Ready-to-use, moisture-resistant, lightweight bathroom adhesive",
-        arDescription: "غراء الحمام خفيف الوزن ومقاوم للرطوبة جاهز للاستخدام",
-        image: weberfixPremium2,
-      },
-      {
-        id: 3,
-        name: "Weberfix pro",
-        arname: "ويبرفيكس برو",
-        description: "Adhesive for new surfaces",
-        arDescription: "غراء للأسطح الجديدة",
-        image: weberfixPro,
-      },
-      {
-        id: 4,
-        name: "Weberfix sol",
-        arname: "ويبرفيكس سول",
-        description: "Ready-to-use paste adhesive for interior floors",
-        arDescription: "غراء اللصق جاهز للاستخدام للأرضيات الداخلية",
-        image: weberfixSol,
+        id: 12,
+        name: "weberdry reflex-P",
+        arname: "ويبردراي ريفلكس-بي",
+        description: "High-performance, sun-reflective single-component coating",
+        arDescription: "طالء احادي المكون عالي األداء وعاكس ألشعة الشمس",
+        moreDescription: [
+          {
+            detail: "Reflects of sunlight",
+            ardetail: "عاكس ألشعة الشمس",
+          },
+          {
+            detail: "Good UV resistant",
+            ardetail: "مقاومة  جيدة للأشعة فوق البنفسجية",
+          },
+        ],
+        image: weberdryReflexP,
       },
     ],
   },
   {
     id: 7,
-    name: "Mortars for concrete restoration, consolidation and reinforcement of structures",
-    arname: "مدافع الهاون لترميم الخرسانة وتدعيم وتقوية الهياكل",
+    name: "Various solutions for the restoration and protection of concrete structures",
+    arname: "حلول متنوعة لترميم وحماية الهياكل الخرسانية ",
     items: [
       {
         id: 1,
         name: "webertec CLSfluido",
         arname: "ويبيرتيك سي إل إس فلويدو",
         description:
-          "Pourable anti-shrinkage superfluid mortar for structural concrete restoration and grouting",
-        arDescription: "ملاط سائل مضاد للتقلص قابل للصب لاستعادة الخرسانة الهيكلية والتغطيس",
+          "Anti-shrinkage mortar used for repair and restoration of concrete structures",
+        arDescription: "مونة مضادة لالنكماش تستخدم إلصالح وترميم المنشآت الخرسانية.",
+        moreDescription: [
+          {
+            detail: "Super fluidity.",
+            ardetail: "انسيابيه فائقة.",
+          },
+          {
+            detail: "Excellent workability",
+            ardetail: "قابلية تشغيل ممتازة.",
+          },
+          {
+            detail: "High mechanical resistance.",
+            ardetail: "مقاومة ميكانيكية عالية.",
+          },
+          {
+            detail: "Can be applied by machine",
+            ardetail: "يمكن تطبيقها بواسطة االلة..",
+          },
+          {
+            detail: "Excellent adhesion to the surface",
+            ardetail: "التصاق ممتاز على السطح",
+          },
+        ],
         image: webertecCLSfluido,
       },
       {
         id: 2,
         name: "webertec fer",
         arname: "ويبيرتيك فير",
-        description: "Protective slurry for concrete and reinforcing bars",
-        arDescription: "طين وقائي للخرسانة والحديد المسلح",
+        description: "Protection mortar for concrete and rebar",
+        arDescription: "مونة حماية للخرسانة وحديد التسليح",
+        moreDescription: [
+          {
+            detail: "Chloride-free",
+            ardetail: "خالية من الكلوريدات.",
+          },
+          {
+            detail: "Good adhesion to the surface",
+            ardetail: "التصاق ممتاز على السطح",
+          },
+          {
+            detail: "Protects surfaces from corrosion",
+            ardetail: "حمي االسطح من التآكل.",
+          },
+        ],
         image: webertecFer,
       },
       {
@@ -1548,20 +1602,64 @@ export default [
         name: "webertec ripara60",
         arname: "ويبيرتيك ريبارا60",
         description:
-          "Thixotropic mortar for restoring, repairing and protecting reinforced concrete structural elements",
+          "Restoration, repair and protection mortar for structural elements in reinforced concrete",
         arDescription:
-          "ملاط ثيكسوتروبيك لاستعادة وإصلاح وحماية العناصر الهيكلية من الخرسانة المسلحة",
-        image: webertecRipara60,
+          "مونة ترميم وإصالح وحماية للعناصر االنشائية في الخرسانة المسلحة",
+          moreDescription: [
+            {
+              detail: "Excellent adhesion to the surface",
+              ardetail: "التصاق ممتاز على السطح",
+            },
+            {
+              detail: "Mechanical properties similar to concrete",
+              ardetail: "خواا ميكانيكية مماثلة للخرسانة.",
+            },
+            {
+              detail: "Anti-shrinkage, which prevents the formation of hairline cracks",
+              ardetail: "مضادة لالنكماش مما تمنع تكوين التشققات الشعرية.",
+            },
+            {
+              detail: "Provides a smooth, pore-free surface finish",
+              ardetail: "تعطي سطح ذو تشطيب جيد خالي من المسام..",
+            },
+            {
+              detail: "Ease of application in columns and ceilings",
+              ardetail: "سهولة التطبيق في االعمدة واالسقف.",
+            },
+          ],
+          image: webertecRipara60,
       },
       {
         id: 4,
         name: "webertec ripara60+",
         arname: "ويبيرتيك ريبارا60+",
         description:
-          "Normal-setting R4 thixotropic mortar for restoring, repairing and protecting reinforced concrete elements",
+          "R4 mortar for restoring, repairing and protecting structural elements in reinforced concrete",
         arDescription:
-          "ملاط ثيكسوتروبيك R4 ذو ضبط عادي لاستعادة وإصلاح وحماية العناصر من الخرسانة المسلحة",
-        image: webertecRipara60PLUS,
+          "مونة R4 لترميم وإصالح وحماية العناصر االنشائية في الخرسانة المسلحة.",
+          moreDescription: [
+            {
+              detail: "Excellent adhesion to the surface",
+              ardetail: "التصاق ممتاز على السطح",
+            },
+            {
+              detail: "Mechanical properties similar to concrete",
+              ardetail: "خواا ميكانيكية مماثلة للخرسانة.",
+            },
+            {
+              detail: "Anti-shrinkage, which prevents the formation of hairline cracks",
+              ardetail: "مضادة لالنكماش مما تمنع تكوين التشققات الشعرية.",
+            },
+            {
+              detail: "Provides a smooth, pore-free surface finish",
+              ardetail: "تعطي سطح ذو تشطيب جيد خالي من المسام..",
+            },
+            {
+              detail: "Ease of application in columns and ceilings",
+              ardetail: "سهولة التطبيق في االعمدة واالسقف.",
+            },
+          ],
+          image: webertecRipara60PLUS,
       },
     ],
   },
@@ -1574,20 +1672,20 @@ export default [
         id: 1,
         name: "webweberprim RA13",
         arname: "ويبويبريم را13",
-        description: "Water-based substrate preparer for synthetic finishing products",
-        arDescription: "مثبت قاعدة قائم على الماء للمنتجات الاصطناعية التشطيب",
+        description: "A water-based primer applied to structural surfaces before painting, suitable for exterior use",
+        arDescription: "ب اريمر ذو أساس مائي يطبق على أسطح المنشآت قبل الطالء، مناسب لالستخدام الخارجي",
         moreDescription: [
           {
-            detail: "Good resistance to alkalis",
-            ardetail: "مقاومة جيدة للقلويات",
+            detail: "resistant to alkalis",
+            ardetail: "مقاوم للقلويات",
           },
           {
-            detail: "Excellent impregnation",
-            ardetail: "امتصاص ممتاز",
+            detail: "Good penetration into surfaces",
+            ardetail: "اخت ارق جيد في االسطح",
           },
           {
-            detail: "Thermal shock resistance",
-            ardetail: "مقاومة للصدمات الحرارية",
+            detail: "Good resistance to thermal shocks.",
+            ardetail: "مقاومة جيدة للصدمات الح اررية",
           },
         ],
         image: weberprimRA13,
